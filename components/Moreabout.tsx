@@ -1,13 +1,12 @@
-import React from 'react'
-import AboutUs from './AboutUs'
+import React from "react";
+import AboutUs from "./AboutUs";
 
 const Moreabout = () => {
   return (
     <div>
-        
-        <AboutUs/>
+      <AboutUs />
     </div>
-  )
-}
+  );
+};
 
-export default Moreabout
+export default Moreabout;

@@ -20,9 +20,9 @@ export const metadata: Metadata = {
   // },
   title: "Our Attorneys",
   description:
-    "Attorneys/ Lawyers at K.K. Ubani and Co. legal services in Lagos, Port Harcourt, Abuja, Nigeria. Navigate regulations, mergers, acquisitions, and compliance with K.K. Ubani & Co.",
+    "Attorneys/ Lawyers at Benfield Attorneys and Solicitors legal services in Lagos, Nigeria. Navigate regulations, mergers, acquisitions, and compliance with Benfield Attorneys and Solicitors",
   generator: "",
-  applicationName: "K.K.Ubani&Co.",
+  applicationName: "Benfield Attorneys and Solicitors",
   referrer: "origin-when-cross-origin",
   keywords: [
     "Attorneys Law firm services",
@@ -40,9 +40,9 @@ export const metadata: Metadata = {
     "Attorneys or a lawyer needed for law case",
     "Lawyers for legal court case lawyer",
   ],
-  authors: [{ name: "John" }],
-  creator: "John Uchendu",
-  publisher: "John Uchendu",
+  authors: [{ name: "ECA" }],
+  creator: "ECA",
+  publisher: "ECA",
   formatDetection: {
     email: false,
     address: false,
@@ -52,46 +52,14 @@ export const metadata: Metadata = {
 
 const attorneys = [
   {
-    name: "Kenneth K. Ubani",
+    name: "Benfield",
     office: "Principal Partner",
-    image: "/our-attorneys/kennethkelechiubani.PNG",
-    bioUrl: "/our-attorneys/kenneth-kelechi-ubani",
+    image: "/our-attorneys/benfield-owner1.PNG",
+    bioUrl: "/our-attorneys/benfield",
     intro:
-      "Kenneth K. Ubani is a seasoned corporate lawyer with 15+ years of experience in litigation, business law, and regulatory compliance.",
+      "Benfield Attorneys and Solicitors is a seasoned corporate lawyer with 15+ years of experience in litigation, business law, and regulatory compliance.",
   },
-  {
-    name: "Deborah N. Ikechukwu",
-    office: "Practice Manager/ Senior Associate",
-    image: "/our-attorneys/deborah.PNG",
-    bioUrl: "/our-attorneys/deborah-ikechukwu",
-    intro:
-      "One of Deborah’s greatest strength is her ability to manage client relationship with ease.",
-  },
-
-  {
-    name: "Victor Ubochi",
-    office: "Senior Associate",
-    image: "/our-attorneys/victor.PNG",
-    bioUrl: "/our-attorneys/victor-ubochi",
-    intro:
-      "Throughout his career, he has been extensively involved in settling high-ranking and sensitive legal claims for multinational corporations",
-  },
-  {
-    name: "Emeka M. Peters",
-    office: "Senior Associate",
-    image: "/our-attorneys/emeka.PNG",
-    bioUrl: "/our-attorneys/emeka-peters",
-    intro:
-      "Emeka is a Member of the Firm’s Property Law and Real estate Practice.",
-  },
-  {
-    name: "James E.Uro",
-    office: "Litigation Manager",
-    image: "/our-attorneys/james.PNG",
-    bioUrl: "/our-attorneys/james-uro",
-    intro:
-      "James E. Uro is known for his dedication to his clients' interests, meticulous attention to detail, and ability to unravel complex legal challenges",
-  },
+  
 ];
 
 const OurAttorneys = () => {

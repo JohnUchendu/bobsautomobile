@@ -15,11 +15,11 @@ export const metadata: Metadata = {
   // openGraph: {
   //   images: '/og-image.png',
   // },
-  title: "Kenneth K. Ubani - Principal Partner ",
+  title: "Benfield - Principal Partner ",
   description:
-    "He has also been involved in a revenue case between the Rivers State Government and the Federal Government of Nigeria. ",
+    "He has also been involved in a revenue case between the Lagos State Government and the Federal Government of Nigeria. ",
   generator: "",
-  applicationName: "K.K.Ubani&Co.",
+  applicationName: "Benfield Attorneys & Solicitors",
   referrer: "origin-when-cross-origin",
   keywords: [
     "K.K. Ubani ",
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
     "Attorneys or a lawyer needed for law case",
     "Lawyers for legal court case lawyer",
   ],
-  authors: [{ name: "John" }],
-  creator: "John Uchendu",
-  publisher: "John Uchendu",
+  authors: [{ name: "ECA" }],
+  creator: "ECA",
+  publisher: "ECA",
   formatDetection: {
     email: false,
     address: false,
@@ -54,8 +54,8 @@ const KennethBio = () => {
       <div className="container mx-auto py-12 px-6 pt-30 max-w-3xl ">
         <div className="flex justify-center items-center">
           <Image
-            src="/kennethkelechiubani.PNG"
-            alt="Kenneth Kelechi Ubani"
+            src="/our-attorneys/benfield.PNG"
+            alt="Benfield"
             width={300}
             height={300}
             className="rounded-lg object-cover"
@@ -70,15 +70,13 @@ const KennethBio = () => {
 
         <div className="bg-gray-100 p-6 rounded-lg shadow-md">
           <p className="text-lg  text-gray-700 leading-relaxed">
-            Kenneth is a member of the International Bar Association (IBA) and
+            Benfield is a member of the International Bar Association (IBA) and
             the Nigerian Bar Association NBA.
             <br />
             <br /> He is an astute commercial litigator who holds over two
             decades of erudite expertise and experience in the legal practice
             drawn from commercial transactions and dispute resolution in Nigeria
-            Prior to joining the firm, he was an Associate and later Deputy
-            Managing Solicitor at T. O. Waamah & Associates between 2003 -2008,
-            and Partner at Sterling Law Alliance
+            
             <br />
             <br /> He has variously applied his skills and expertise to the
             betterment of his clients’ businesses. He was recently involved in a

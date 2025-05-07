@@ -24,7 +24,7 @@ const Navbar = () => {
               />
               
               <h2 className="text-2xl lg:text-4xl text-blue-900 font-bold cursor-pointer ">
-                K.K. Ubani & Co.
+                
               </h2>
             </Link>
 

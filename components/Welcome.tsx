@@ -14,8 +14,8 @@ export default function Welcome() {
         transition={{ duration: 0.5 }}
       >
         <Image
-          src="/kkubani&cologo.png"
-          alt="Kk Ubani & Co Logo"
+          src="/logos/logo.PNG"
+          alt="Benfield Attorneys and Solicitors Logo"
           width={100}
           height={150}
           className="h-12 w-auto"
@@ -29,7 +29,7 @@ export default function Welcome() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        Welcome to K.K. Ubani & Co.
+        Welcome to Benfield Attorneys and Solicitors
       </motion.h1>
 
       {/* Gratias Deo Chambers */}
@@ -71,7 +71,7 @@ export default function Welcome() {
           Get Your Consultation
         </p>
         <p className="text-2xl font-bold backdrop-blur-2xl bg-orange-600 border rounded-4xl p-3 text-white">
-          (234) 809 9000 582
+          (234) 803 698 6158
         </p>
         <p className="text-sm text-gray-500"></p>
       </motion.div>

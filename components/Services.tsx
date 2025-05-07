@@ -20,93 +20,93 @@ const services = [
       "Legal solutions for commercial transactions and trade agreements.",
     bioUrl: "law-firm-services/commercial",
   },
-  {
-    title: "Energy and Natural Resources",
-    image: "/areas/energy.jpg",
-    description:
-      "Advising on energy regulations and natural resource management.",
-    bioUrl: "law-firm-services/energy-and-natural-resources",
-  },
-  {
-    title: "Telecommunication",
-    image: "/areas/telecom.jpg",
-    description:
-      "Legal counsel for telecom operators and regulatory compliance.",
-    bioUrl: "law-firm-services/telecommunication",
-  },
-  {
-    title: "Aviation",
-    image: "/areas/aviation.jpg",
-    description:
-      "Expertise in aviation law, compliance, and regulatory matters.",
-    bioUrl: "law-firm-services/aviation",
-  },
-  {
-    title: "Taxation",
-    image: "/areas/taxation.jpg",
-    description: "Comprehensive tax advisory and compliance services.",
-    bioUrl: "law-firm-services/taxation",
-  },
-  {
-    title: "Commercial Litigation",
-    image: "/areas/litigation.jpg",
-    description: "Handling complex commercial disputes effectively.",
-    bioUrl: "law-firm-services/commercial-litigation",
-  },
-  {
-    title: "Alternative Dispute Resolution",
-    image: "/areas/adr.webp",
-    description:
-      "Expert mediation and arbitration services for dispute resolution.",
-    bioUrl: "law-firm-services/alternative-dispute-resolution",
-  },
-  {
-    title: "Project Finance",
-    image: "/areas/projectfinance.jpg",
-    description: "Structuring and financing large-scale projects efficiently.",
-    bioUrl: "law-firm-services/project-finance",
-  },
-  {
-    title: "Shipping and Maritime",
-    image: "/areas/shipping.jpg",
-    description:
-      "Legal services for maritime businesses and shipping operations.",
-    bioUrl: "law-firm-services/shipping-and-maritime",
-  },
-  {
-    title: "Foreign Investment",
-    image: "/areas/investment.jpg",
-    description:
-      "Guiding foreign investors through legal frameworks and compliance.",
-    bioUrl: "law-firm-services/foreign-investment",
-  },
-  {
-    title: "Banking and Finance",
-    image: "/areas/banking.jpg",
-    description:
-      "Advisory services for banking regulations and financial transactions.",
-    bioUrl: "law-firm-services/banking-and-finance",
-  },
-  {
-    title: "Real Estate",
-    image: "/areas/realestate.jpg",
-    description:
-      "Legal expertise in property transactions and real estate development.",
-    bioUrl: "law-firm-services/real-estate",
-  },
-  {
-    title: "Labour / Employment",
-    image: "/areas/labour.jpg",
-    description:
-      "Providing legal support for employment laws and workplace policies.",
-    bioUrl: "law-firm-services/labour-employment",
-  },
-  {
-    title: "Intellectual Property",
-    image: "/areas/ip.jpg",
-    description: "Protecting trademarks, patents, and copyrights effectively.",
-    bioUrl: "law-firm-services/intellectual-property",
-  },
+  // {
+  //   title: "Energy and Natural Resources",
+  //   image: "/areas/energy.jpg",
+  //   description:
+  //     "Advising on energy regulations and natural resource management.",
+  //   bioUrl: "law-firm-services/energy-and-natural-resources",
+  // },
+  // {
+  //   title: "Telecommunication",
+  //   image: "/areas/telecom.jpg",
+  //   description:
+  //     "Legal counsel for telecom operators and regulatory compliance.",
+  //   bioUrl: "law-firm-services/telecommunication",
+  // },
+  // {
+  //   title: "Aviation",
+  //   image: "/areas/aviation.jpg",
+  //   description:
+  //     "Expertise in aviation law, compliance, and regulatory matters.",
+  //   bioUrl: "law-firm-services/aviation",
+  // },
+  // {
+  //   title: "Taxation",
+  //   image: "/areas/taxation.jpg",
+  //   description: "Comprehensive tax advisory and compliance services.",
+  //   bioUrl: "law-firm-services/taxation",
+  // },
+  // {
+  //   title: "Commercial Litigation",
+  //   image: "/areas/litigation.jpg",
+  //   description: "Handling complex commercial disputes effectively.",
+  //   bioUrl: "law-firm-services/commercial-litigation",
+  // },
+  // {
+  //   title: "Alternative Dispute Resolution",
+  //   image: "/areas/adr.webp",
+  //   description:
+  //     "Expert mediation and arbitration services for dispute resolution.",
+  //   bioUrl: "law-firm-services/alternative-dispute-resolution",
+  // },
+  // {
+  //   title: "Project Finance",
+  //   image: "/areas/projectfinance.jpg",
+  //   description: "Structuring and financing large-scale projects efficiently.",
+  //   bioUrl: "law-firm-services/project-finance",
+  // },
+  // {
+  //   title: "Shipping and Maritime",
+  //   image: "/areas/shipping.jpg",
+  //   description:
+  //     "Legal services for maritime businesses and shipping operations.",
+  //   bioUrl: "law-firm-services/shipping-and-maritime",
+  // },
+  // {
+  //   title: "Foreign Investment",
+  //   image: "/areas/investment.jpg",
+  //   description:
+  //     "Guiding foreign investors through legal frameworks and compliance.",
+  //   bioUrl: "law-firm-services/foreign-investment",
+  // },
+  // {
+  //   title: "Banking and Finance",
+  //   image: "/areas/banking.jpg",
+  //   description:
+  //     "Advisory services for banking regulations and financial transactions.",
+  //   bioUrl: "law-firm-services/banking-and-finance",
+  // },
+  // {
+  //   title: "Real Estate",
+  //   image: "/areas/realestate.jpg",
+  //   description:
+  //     "Legal expertise in property transactions and real estate development.",
+  //   bioUrl: "law-firm-services/real-estate",
+  // },
+  // {
+  //   title: "Labour / Employment",
+  //   image: "/areas/labour.jpg",
+  //   description:
+  //     "Providing legal support for employment laws and workplace policies.",
+  //   bioUrl: "law-firm-services/labour-employment",
+  // },
+  // {
+  //   title: "Intellectual Property",
+  //   image: "/areas/ip.jpg",
+  //   description: "Protecting trademarks, patents, and copyrights effectively.",
+  //   bioUrl: "law-firm-services/intellectual-property",
+  // },
   // {
   //   title: "Entertainment",
   //   image: "/areas/entertainment.jpg",
@@ -119,7 +119,7 @@ const services = [
 export default function OurServices() {
   return (
     <div
-      className="py-16 px-8"
+      className="py-20 px-8"
       style={{
         backgroundImage: "url(/servicesbg.webp)",
         backgroundSize: "cover",
@@ -151,7 +151,7 @@ export default function OurServices() {
               <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
               <p className="text-gray-600">{service.description}</p>
               <Link href={service.bioUrl} rel="noopener noreferrer ">
-                <Button className="mt-4 w-1/2 text-[10px]" >
+                <Button className="mt-4 w-1/2 text-[9px]" >
                   click to know why <br/> companies choose us
                 </Button>
               </Link>

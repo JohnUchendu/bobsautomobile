@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.kkubaniandco.com
+Host: https://www.acme.com
 
 # Sitemaps
-Sitemap: https://www.kkubaniandco.com/sitemap.xml
+Sitemap: https://www.acme.com/sitemap.xml

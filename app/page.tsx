@@ -5,7 +5,7 @@ import Hero from "@/components/Hero";
 import OurServices from "@/components/Services";
 
 import Welcome from "@/components/Welcome";
-import Solution from "@/components/Solution";
+// import Solution from "@/components/Solution";
 
 import React from "react";
 import Testimonials from "../components/Testimonial";
@@ -13,7 +13,7 @@ import BookingForm from "../components/BookingForm";
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: 'https://kkubaniandco.com',
+    canonical: 'https://acme.com',
     // languages: {
     //   'en-US': '/en-US',
     //   'en-GB': '/en-GB',
@@ -22,15 +22,15 @@ export const metadata: Metadata = {
   openGraph: {
     images: '/og-image.png',
   },
-  title: "K.K. Ubani & Co.",
-  description: "Number 1 law firm with K.K. Ubani & Co.",
+  title: "Benfield Attorneys and Solicitors",
+  description: "Top law firm  in Lagos ",
   generator: '',
-  applicationName: 'K.K.Ubani&Co.',
+  applicationName: 'Benfield Attorneys and Solicitors',
   referrer: 'origin-when-cross-origin',
-  keywords: ["K.K. Ubani & Co.", "Gratias Deo Chambers"],
-  authors: [{ name: "John"}   ],
-  creator: "John Uchendu",
-  publisher: "John Uchendu",
+  keywords: ["Benfield Attorneys and Solicitors", "Gratias Deo Chambers"],
+  authors: [{ name: "ECA"}   ],
+  creator: " ECA",
+  publisher: " ECA",
   formatDetection: {
     email: false,
     address: false,

@@ -8,7 +8,7 @@ const Topbar = () => {
       {/* Left Side - Social Media Icons */}
      <div className="flex gap-4">
         <a
-          href="https://facebook.com/KKubaniandco"
+          href="https://facebook.com/benfieldattorneysandsolicitors"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-500"
@@ -37,12 +37,12 @@ const Topbar = () => {
               {" "}
               call 
             </span>{" "}
-            (234) 809 900 0582
+            (234) 803 698 6158
           </span>
         </div>
         <div className="flex items-center gap-2">
           <Mail size={18} />
-          <span>info@kkubaniandco.com</span>
+          <span>info@baslaw.com</span>
         </div>
       </div>
     </div>

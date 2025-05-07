@@ -15,7 +15,7 @@ const slides = [
     image: "/hero/justice.jpg",
     title: "Expert Legal Counsel",
     description: "Providing strategic legal solutions tailored to your needs.",
-    buttonText: "Call K.K.Ubani & Co. Now",
+    buttonText: "Call BAS law Now",
     link: "/contact-law-firm", // Add your consultation page link here
   },
   {

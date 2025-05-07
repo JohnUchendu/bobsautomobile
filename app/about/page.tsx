@@ -18,11 +18,11 @@ export const metadata: Metadata = {
   // openGraph: {
   //   images: '/og-image.png',
   // },
-  title: "About",
+  title: "About Benfield Attorneys and Solicitors",
   description:
-    "About K.K. Ubani and Co. legal services in Lagos, Port Harcourt, Abuja, Nigeria. Navigate regulations, mergers, acquisitions, and compliance with K.K. Ubani & Co.",
+    "About Benfield Attorneys and Solicitors legal services in Lagos, Nigeria. Navigate regulations, mergers, acquisitions, and compliance with Benfield Attorneys and Solicitors",
   generator: "",
-  applicationName: "K.K.Ubani&Co.",
+  applicationName: "Benfield Attorneys and Solicitors",
   referrer: "origin-when-cross-origin",
   keywords: [
     "About Law firm services",
@@ -33,9 +33,9 @@ export const metadata: Metadata = {
     "About a lawyer needed for law case",
     "About legal court case lawyer",
   ],
-  authors: [{ name: "John" }],
-  creator: "John Uchendu",
-  publisher: "John Uchendu",
+  authors: [{ name: "ECA" }],
+  creator: "Eagle Contractor Agency",
+  publisher: "ECA",
   formatDetection: {
     email: false,
     address: false,
@@ -46,16 +46,13 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <>
-
-
       <div className="pt-10">
         <AboutUs />
       </div>
       <Testimonials />
-      <ClientLogos/>
-      <Hero/>
-      <OurServices/>
-
+      <ClientLogos />
+      <Hero />
+      <OurServices />
     </>
   );
 };
