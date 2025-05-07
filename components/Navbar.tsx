@@ -16,8 +16,8 @@ const Navbar = () => {
             {/* LOGO */}
             <Link href="/" className="flex ">
               <Image
-                src="/kkubani&cologo.png"
-                alt="Kk Ubani & Co Logo"
+                src="/logos/logo.PNG"
+                alt="Benfield Attorneys & Solicitors Logo"
                 width={50} // Adjust the width
                 height={50} // Set the height equal to the text height
                 className="h-12 w-auto"
