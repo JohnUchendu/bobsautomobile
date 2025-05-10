@@ -3,20 +3,20 @@ import React from "react";
 const testimonials = [
   {
     quote:
-      "We have been working with Benfield Attorneys & Solicitors for several years now, and we are continually impressed with their professionalism and expertise in the legal field. Their dedication to providing top-notch legal services has been instrumental in helping us navigate complex legal matters. We highly recommend Benfield Attorneys & Solicitors to any organization in need of exceptional legal representation.",
-    
+      "We have been working with DePriest Pest Control Services for several years now, and we are continually impressed with their professionalism and expertise in the pest control field. Their dedication to providing top-notch legal services has been instrumental in helping us navigate pest infestations. We highly recommend Depriest Pest Control to any organization in need of exceptional pest eradication.",
+
     company: "ECOBANK Nigeria Limited:",
   },
   {
     quote:
-      "Benfield Attorneys & Solicitors has been a valuable legal partner for Polaris Bank Limited. Their team's in-depth knowledge of the law and their strategic approach to handling legal issues have been crucial in achieving successful outcomes for our organization. We appreciate their commitment to excellence and their unwavering support.",
+      "Depriest Pest Control has been a valuable pest control service partner for Polaris Bank Limited. Their team's in-depth knowledge of the pest and their strategic approach to handling commercial pest issues have been crucial in achieving successful outcomes for our organization. We appreciate their commitment to excellence and their unwavering support.",
 
     company: "Polaris Bank Limited",
   },
   {
     quote:
-      "Benfield Attorneys & Solicitors has consistently delivered exceptional legal services to  Industrial Training Fund. Their team's expertise, professionalism, and commitment to excellence have made them a trusted legal partner for our organizations. We are grateful for their guidance and support, and we highly recommendBenfield Attorneys & Solicitors to anyone in need of expert legal representation.",
-  
+      "Depriest Pest Control has consistently delivered exceptional pest control services to  Industrial Training Fund. Their team's expertise, professionalism, and commitment to excellence have made them a trusted pest control partner for our organizations. We are grateful for their guidance and support, and we highly recommend Depriest Pest Control to anyone in need of expert pest problems.",
+
     company: "Industrial Training Fund.",
   },
 ];
@@ -31,7 +31,7 @@ const Testimonials = () => {
         {testimonials.map((testimonial, index) => (
           <div key={index} className="bg-white p-6 rounded-lg">
             <p className="text-gray-700 italic mb-4">"{testimonial.quote}"</p>
-          
+
             <p className="text-sm text-gray-500">{testimonial.company}</p>
           </div>
         ))}

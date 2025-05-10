@@ -1,55 +1,130 @@
-import { Facebook, Twitter, Instagram } from 'lucide-react'; // Importing Lucide icons
-import SubFooter from './SubFooter';
+import React from "react";
+import Image from "next/image";
+import {
+  Facebook,
+  Instagram,
+  Twitter,
+  Linkedin,
+  Mail,
+  Phone,
+  MapPin,
+} from "lucide-react";
 
 const Footer = () => {
   return (
-    <div className="bg-blue-900 text-white py-12">
-      <div className="max-w-7xl mx-auto px-4">
-      <h2 className="text-3xl font-bold mb-8">Let's work together</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Card 1: Contact Details */}
-          <div className="bg-blue-700 p-6 rounded-lg">
-            <h3 className="text-xl font-semibold mb-4">Contact Details</h3>
-            <p className="text-lg">
-              <strong>Address:</strong> suit 41 Ikorodu cres, delphin estate 106104 Lagos, Nigeria
-            </p>
-            <p className="text-lg">
-              <strong>Telephone:</strong> (234) 803 698 6158
-            </p>
-            <p className="text-lg">
-              <strong>Email:</strong> info@baslaw.com
-            </p>
+    <footer className="bg-gray-900 text-gray-300 pt-12 px-6 md:px-20">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 pb-10 border-b border-gray-700">
+        {/* Logo & Quick Links */}
+        <div>
+          <div className="mb-4">
+            <Image src="/logos/De’PRIEST PEST CONTROL.png" alt="depriest pest control services" width={150} height={40} />
           </div>
-
-          {/* Card 2: Office Hours */}
-          <div className="bg-blue-700 p-6 rounded-lg">
-            <h3 className="text-xl font-semibold mb-4">Office Hours</h3>
-            <p className="text-lg">
-              <strong>Monday to Friday:</strong> 9:00 am to 4:00 pm
-            </p>
-            <p className="text-lg">Closed on Weekends</p>
-          </div>
-
-          {/* Card 3: Follow Us */}
-          <div className="bg-blue-700 p-6 rounded-lg">
-            <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
-            <div className="flex space-x-4">
-              <a href="https://facebook.com/benfieldattorneysandsolicitors" target="_blank" rel="noopener noreferrer">
-                <Facebook className="text-3xl hover:text-blue-600" />
+          <h4 className="text-lg font-semibold mb-3">Quick Links</h4>
+          <ul className="space-y-2">
+            <li>
+              <a href="/" className="hover:text-white">
+                Home
               </a>
-              <a href="https://twitter.com/benfieldattorneysandsolicitors" target="_blank" rel="noopener noreferrer">
-                <Twitter className="text-3xl hover:text-blue-400" />
+            </li>
+            <li>
+              <a href="/about" className="hover:text-white">
+                About Us
               </a>
-              <a href="https://instagram.com/benfieldattorneysandsolicitors" target="_blank" rel="noopener noreferrer">
-                <Instagram className="text-3xl hover:text-pink-500" />
-              </a><span>benfield attorneys & solicitors</span>
-              
-            </div>
+            </li>
+            <li>
+              <a href="/contact" className="hover:text-white">
+                Contact Us
+              </a>
+            </li>
+            {/* <li>
+              <a href="/blog" className="hover:text-white">
+                Blog
+              </a>
+            </li> */}
+          </ul>
+        </div>
+
+        {/* Residential Services */}
+        <div>
+          <h4 className="text-lg font-semibold mb-3">Residential Services</h4>
+          <ul className="space-y-2">
+            <li>Termite Control</li>
+            <li>Ant Extermination</li>
+            <li>Rodent Removal</li>
+            <li>Bed Bug Treatment</li>
+            <li>General Pest Control</li>
+          </ul>
+        </div>
+
+        {/* Commercial Services */}
+        <div>
+          <h4 className="text-lg font-semibold mb-3">Commercial Services</h4>
+          <ul className="space-y-2">
+            <li>Office Pest Control</li>
+            <li>Warehouse Treatment</li>
+            <li>Restaurant Protection</li>
+            <li>Hotel Disinfection</li>
+            <li>Retail Store Services</li>
+          </ul>
+        </div>
+
+        {/* Connect With Us */}
+        <div>
+          <h4 className="text-lg font-semibold mb-3">Connect With Us</h4>
+          <div className="flex space-x-4 mt-4">
+            <a
+              href="https://facebook.com/depriest-pest-control"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
+              <Facebook width={20} height={20} />
+            </a>
+
+            <a
+              href="https://instagram.com/depriest-pest-control"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
+              <Instagram width={20} height={20} />
+            </a>
+            <a
+              href="https://x.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
+              <Twitter width={20} height={20} />
+            </a>
           </div>
         </div>
       </div>
-      <SubFooter/>
-    </div>
+
+      {/* Contact Info Section */}
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between text-sm text-gray-400 py-6 divide-y md:divide-y-0 md:divide-x divide-gray-700 gap-4 md:gap-0">
+        {/* Phone */}
+        <div className="flex items-center gap-2 px-4">
+          <Phone size={18} />
+          <span>+2349134810580</span>
+        </div>
+        {/* Email */}
+        <div className="flex items-center gap-2 px-4">
+          <Mail size={18} />
+          <span>info@depriestpestcontrol.com</span>
+        </div>
+        {/* Address */}
+        <div className="flex items-center gap-2 px-4">
+          <MapPin size={18} />
+          <span>Port Harcourt 500102, Rivers, Nigeria</span>
+        </div>
+      </div>
+
+      {/* Copyright */}
+      <div className="text-center text-xs text-gray-500 pb-6">
+        &copy; {new Date().getFullYear()} Depriest Pest Control services All rights reserved.
+      </div>
+    </footer>
   );
 };
 

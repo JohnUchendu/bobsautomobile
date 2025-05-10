@@ -18,8 +18,8 @@ export const metadata: Metadata = {
   // openGraph: {
   //   images: '/og-image.png',
   // },
-  title: "About DePriest Pest Control",
-  description: "About DePriest Pest Control services in Port Harcourt.",
+  title: "Testimonials | DePriest Pest Control",
+  description: "Reviews | DePriest Pest Control services in Port Harcourt.",
   generator: "",
   applicationName: "DePriest Pest Control",
   referrer: "origin-when-cross-origin",
@@ -51,9 +51,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <>
-      <div className="pt-10">
-        <AboutUs />
-      </div>
+    
       <Testimonials />
       <ClientLogos />
       <Hero />

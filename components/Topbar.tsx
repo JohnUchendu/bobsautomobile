@@ -1,52 +1,51 @@
+// app/components/TopNavbar.tsx
 "use client";
 
-import { Facebook, Linkedin, Mail, Phone } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 
-const Topbar = () => {
+export default function TopNavbar() {
   return (
-    <div className="bg-gray-900 text-white py-2 px-4 flex justify-between items-center md:text-sm text-xs">
-      {/* Left Side - Social Media Icons */}
-     <div className="flex gap-4">
-        <a
-          href="https://facebook.com/benfieldattorneysandsolicitors"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-blue-500"
-        >
-          <Facebook size={18} />
-        </a>
-        {/* <a
-          href="https://linkedin.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-blue-400"
-        >
-          <Linkedin size={18} />
-        </a>  */}
-        {/* <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" className="hover:text-green-400">
-          <Whatsapp size={18} />
-        </a> */}
-      </div> 
-
-      {/* Right Side - Contact Details */}
-      <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6">
-        <div className="flex items-center gap-2">
-          <Phone size={18} />
-          <span>
-            <span className="border rounded-2xl px-1 bg-orange-500 hover:bg-yellow-200 capitalize font-bold text-gray-900">
-              {" "}
-              call 
-            </span>{" "}
-            (234) 803 698 6158
-          </span>
+    <div className="w-full bg-white shadow-sm py-2 px-4">
+      <div className="max-w-7xl mx-auto flex justify-between items-center flex-wrap md:flex-nowrap gap-4">
+        {/* Column 1: Logo */}
+        <div className="flex items-center flex-shrink-0">
+          <Link href={"/"}>
+          <Image
+            src="/logos/De’PRIEST PEST CONTROL.png"
+            alt="Depriest Logo"
+            width={120}
+            height={40}
+            priority
+            />
+            </Link>
         </div>
-        <div className="flex items-center gap-2">
-          <Mail size={18} />
-          <span>info@baslaw.com</span>
+
+        {/* Column 2: Trust Badges */}
+        <div className="flex-1 flex justify-center items-center gap-3">
+          <Image
+            src="/logos/cac.jpeg"
+            alt="Certified Badge"
+            width={100}
+            height={40}
+          />
+          <Image
+            src="/logos/pcan.png"
+            alt="Eco Friendly Badge"
+            width={100}
+            height={40}
+          />
+       
+        </div>
+
+        {/* Column 3: Phone Number (hidden on mobile) */}
+        <div className="hidden md:flex items-center text-sm font-medium text-gray-800">
+          📞{" "}
+          <a href="tel:+2348034941001" className="ml-2 hover:underline">
+          +2349134810580
+          </a>
         </div>
       </div>
     </div>
   );
-};
-
-export default Topbar;
+}

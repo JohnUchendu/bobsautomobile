@@ -14,8 +14,8 @@ export default function Welcome() {
         transition={{ duration: 0.5 }}
       >
         <Image
-          src="/logos/logo.PNG"
-          alt="Benfield Attorneys and Solicitors Logo"
+          src="/logos/De’PRIEST PEST CONTROL.png"
+          alt="Depriest Logo"
           width={100}
           height={150}
           className="h-12 w-auto"
@@ -29,7 +29,7 @@ export default function Welcome() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        Welcome to Benfield Attorneys and Solicitors
+        Welcome to Depriest Pest Control
       </motion.h1>
 
       {/* Gratias Deo Chambers */}
@@ -39,7 +39,7 @@ export default function Welcome() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
       >
-        Gratias Deo Chambers
+        Eradicating Killer Pests
       </motion.p>
 
       {/* Dash Design */}
@@ -57,7 +57,7 @@ export default function Welcome() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.5 }}
       >
-        ...all round legal service at its optimum
+        ...all round pest control service at its optimum
       </motion.p>
 
       {/* Call to Action */}
@@ -68,10 +68,10 @@ export default function Welcome() {
         transition={{ duration: 0.5, delay: 0.6 }}
       >
         <p className="text-2xl text-gray-700 font-semibold">
-          Get Your Consultation
+          Claim Free Inspection
         </p>
         <p className="text-2xl font-bold backdrop-blur-2xl bg-orange-600 border rounded-4xl p-3 text-white">
-          (234) 803 698 6158
+          (234) 913 481 0580
         </p>
         <p className="text-sm text-gray-500"></p>
       </motion.div>

@@ -7,113 +7,34 @@ import { motion } from "framer-motion";
 
 const services = [
   {
-    title: "Corporate",
-    image: "/areas/corporate.jpg",
+    title: "rat control",
+    image: "/areas/rat.jpg",
     description:
-      "Expert legal guidance for corporate governance and compliance.",
-    bioUrl: "law-firm-services/corporate",
+      "Expert ant eradication for commercial and residential locations",
+    bioUrl: "pest-control-services/rat",
   },
   {
-    title: "Commercial",
-    image: "/areas/commercial.jpg",
+    title: "cockroach control",
+    image: "/areas/cockroach.jpeg",
     description:
-      "Legal solutions for commercial transactions and trade agreements.",
-    bioUrl: "law-firm-services/commercial",
+      "Cockroach infestation solutions for commercial and residents",
+    bioUrl: "pest-control-services/cockroach",
   },
-  // {
-  //   title: "Energy and Natural Resources",
-  //   image: "/areas/energy.jpg",
-  //   description:
-  //     "Advising on energy regulations and natural resource management.",
-  //   bioUrl: "law-firm-services/energy-and-natural-resources",
-  // },
-  // {
-  //   title: "Telecommunication",
-  //   image: "/areas/telecom.jpg",
-  //   description:
-  //     "Legal counsel for telecom operators and regulatory compliance.",
-  //   bioUrl: "law-firm-services/telecommunication",
-  // },
-  // {
-  //   title: "Aviation",
-  //   image: "/areas/aviation.jpg",
-  //   description:
-  //     "Expertise in aviation law, compliance, and regulatory matters.",
-  //   bioUrl: "law-firm-services/aviation",
-  // },
-  // {
-  //   title: "Taxation",
-  //   image: "/areas/taxation.jpg",
-  //   description: "Comprehensive tax advisory and compliance services.",
-  //   bioUrl: "law-firm-services/taxation",
-  // },
-  // {
-  //   title: "Commercial Litigation",
-  //   image: "/areas/litigation.jpg",
-  //   description: "Handling complex commercial disputes effectively.",
-  //   bioUrl: "law-firm-services/commercial-litigation",
-  // },
-  // {
-  //   title: "Alternative Dispute Resolution",
-  //   image: "/areas/adr.webp",
-  //   description:
-  //     "Expert mediation and arbitration services for dispute resolution.",
-  //   bioUrl: "law-firm-services/alternative-dispute-resolution",
-  // },
-  // {
-  //   title: "Project Finance",
-  //   image: "/areas/projectfinance.jpg",
-  //   description: "Structuring and financing large-scale projects efficiently.",
-  //   bioUrl: "law-firm-services/project-finance",
-  // },
-  // {
-  //   title: "Shipping and Maritime",
-  //   image: "/areas/shipping.jpg",
-  //   description:
-  //     "Legal services for maritime businesses and shipping operations.",
-  //   bioUrl: "law-firm-services/shipping-and-maritime",
-  // },
-  // {
-  //   title: "Foreign Investment",
-  //   image: "/areas/investment.jpg",
-  //   description:
-  //     "Guiding foreign investors through legal frameworks and compliance.",
-  //   bioUrl: "law-firm-services/foreign-investment",
-  // },
-  // {
-  //   title: "Banking and Finance",
-  //   image: "/areas/banking.jpg",
-  //   description:
-  //     "Advisory services for banking regulations and financial transactions.",
-  //   bioUrl: "law-firm-services/banking-and-finance",
-  // },
-  // {
-  //   title: "Real Estate",
-  //   image: "/areas/realestate.jpg",
-  //   description:
-  //     "Legal expertise in property transactions and real estate development.",
-  //   bioUrl: "law-firm-services/real-estate",
-  // },
-  // {
-  //   title: "Labour / Employment",
-  //   image: "/areas/labour.jpg",
-  //   description:
-  //     "Providing legal support for employment laws and workplace policies.",
-  //   bioUrl: "law-firm-services/labour-employment",
-  // },
-  // {
-  //   title: "Intellectual Property",
-  //   image: "/areas/ip.jpg",
-  //   description: "Protecting trademarks, patents, and copyrights effectively.",
-  //   bioUrl: "law-firm-services/intellectual-property",
-  // },
-  // {
-  //   title: "Entertainment",
-  //   image: "/areas/entertainment.jpg",
-  //   description:
-  //     "Legal counsel for media, entertainment, and creative industries.",
-  //   bioUrl: "law-firm-services/entertainment",
-  // },
+  {
+    title: "termite control",
+    image: "/areas/termite.jpeg",
+    description:
+      "Termite control solutions for homes and offices.",
+    bioUrl: "pest-control-services/termite",
+  },
+  {
+    title: "mosquito control",
+    image: "/areas/mosquito.jpeg",
+    description:
+      "Mosquito control solutions for homes and businesses",
+    bioUrl: "pest-control-services/mosquito",
+  },
+  
 ];
 
 export default function OurServices() {
@@ -121,7 +42,7 @@ export default function OurServices() {
     <div
       className="py-20 px-8"
       style={{
-        backgroundImage: "url(/servicesbg.webp)",
+        backgroundImage: "url(/professional-pest-control-services-in-delhi-min-840x562.webp)",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -152,7 +73,7 @@ export default function OurServices() {
               <p className="text-gray-600">{service.description}</p>
               <Link href={service.bioUrl} rel="noopener noreferrer ">
                 <Button className="mt-4 w-1/2 text-[9px]" >
-                  click to know why <br/> companies choose us
+                 why companies choose us?
                 </Button>
               </Link>
             </div>

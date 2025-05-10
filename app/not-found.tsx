@@ -1,29 +1,37 @@
 // app/not-found.tsx
+'use client';
+
 import React from 'react';
 
-const Custom404 = () => {
+const NotFound = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen pt-40 bg-gray-100">
       <div className="text-center">
         <h1 className="text-6xl font-extrabold text-red-600 mb-6">404</h1>
-        <h2 className="text-3xl font-semibold text-gray-800 mb-4">Court's Out! The Verdict: Page Not Found</h2>
-        <p className="text-xl text-gray-600 mb-8">It seems like you've been sentenced to a missing page.</p>
+        <h2 className="text-3xl font-semibold text-gray-800 mb-4">
+          Uh-oh! This Page Has Been Exterminated
+        </h2>
+        <p className="text-xl text-gray-600 mb-8">
+          Looks like the page you're crawling for doesn't exist anymore.
+        </p>
 
-        {/* Image or Icon */}
+        {/* Pest Control Themed Image */}
         <img
-          src="/court-gavel.png" // Use a gavel or any judicial-themed image
-          alt="Court Gavel"
+          src="/rat-icon.png" // Replace with your pest image e.g. /rat-icon.png
+          alt="Pest Control Icon"
           className="w-40 h-40 mb-6"
         />
 
         <div className="bg-white shadow-md p-6 rounded-lg max-w-xl mx-auto">
-          <h3 className="text-2xl font-semibold text-gray-800 mb-4">Judicial Humor to Lighten the Sentence</h3>
-          <ul className="list-disc pl-6 space-y-4">
-            <li>"Why don’t judges ever get lost? They always know where the court is!"</li>
-            <li>"I tried to sue the airport for misplacing my luggage, but I lost the case."</li>
-            <li>"Why did the judge bring a pencil to court? In case they had to draw a conclusion!"</li>
-            <li>"A lawyer walked into a bar... but quickly exited, realizing it was a case of mistaken identity."</li>
-            <li>"The courtroom was silent... until the gavel dropped. It was a hammer time moment!"</li>
+          <h3 className="text-2xl font-semibold text-gray-800 mb-4">
+            A Little Pest Humor to Brighten Your Day
+          </h3>
+          <ul className="list-disc pl-6 space-y-4 text-left text-gray-700">
+            <li>"Why did the ant get fired? He was always bugging people."</li>
+            <li>"Mosquitoes don’t need an appointment. They just drop in and take your blood."</li>
+            <li>"I opened a pest control business — it's crawling with success!"</li>
+            <li>"Never argue with a cockroach... they always bring their whole family."</li>
+            <li>"Termites threw a party. The house was lit… and eaten!"</li>
           </ul>
         </div>
 
@@ -32,7 +40,7 @@ const Custom404 = () => {
             href="/"
             className="text-blue-600 hover:text-blue-800 text-lg font-semibold"
           >
-            Return to Court (Home Page)
+            Return to Safety (Home Page)
           </a>
         </div>
       </div>
@@ -40,4 +48,4 @@ const Custom404 = () => {
   );
 };
 
-export default Custom404;
+export default NotFound;
