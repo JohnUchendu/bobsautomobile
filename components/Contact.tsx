@@ -15,20 +15,23 @@ export default function ContactForm() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    const cleanedPhone = phone.replace(/\D/g, ""); // Remove non-numeric chars
+    const cleanedPhone = phone.replace(/\D/g, ""); // Remove non-numeric characters
 
-    // Basic E.164 format validation: starts with country code, 10-14 digits
-    const isValidPhone = /^([1-9]\d{9,14})$/.test(cleanedPhone);
+    // Check if it starts with 0 and has 11 digits
+    const isValidNigerianNumber = /^0\d{10}$/.test(cleanedPhone);
 
-    if (!isValidPhone) {
-      setError("Please enter a valid phone number.");
+    if (!isValidNigerianNumber) {
+      setError("Please enter a valid Nigerian phone number starting with 0.");
       return;
     }
 
     setError("");
 
-    const text = `Name: ${name}%0APhone: ${cleanedPhone}%0AMessage: ${message}`;
-    const whatsappUrl = `https://wa.me/${cleanedPhone}?text=${text}`;
+    // Convert to international format: 08012345678 → 2348012345678
+    const internationalPhone = 2349138688465;
+
+    const text = `Name: ${name}%0APhone: ${phone}%0AMessage: ${message}`;
+    const whatsappUrl = `https://wa.me/${internationalPhone}?text=${text}`;
     window.open(whatsappUrl, "_blank");
   };
 
@@ -59,7 +62,7 @@ export default function ContactForm() {
 
         <Input
           type="tel"
-          placeholder=" Number (e.g. 2349012345678)"
+          placeholder="Phone Number (e.g. 08012345678)"
           value={phone}
           onChange={(e) => setPhone(e.target.value)}
           required
@@ -82,7 +85,7 @@ export default function ContactForm() {
           transition={{ delay: 0.2 }}
         >
           <Button type="submit" className="w-full bg-green-600 hover:bg-green-700">
-            Send 
+            Send
           </Button>
         </motion.div>
       </form>
