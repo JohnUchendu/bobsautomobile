@@ -1,17 +1,26 @@
-"use client";
+'use client';
 
 import { useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
+import { motion } from "framer-motion";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-md">
+    <motion.nav
+      className="bg-white shadow-md"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo */}
-        <h1 className="text-xl font-bold text-green-700"></h1>
+        <Link href="/" className="flex items-center gap-2">
+          <img src="/logos/bobsautomobilelogo.png" alt="Logo" className="h-10 w-auto object-contain" />
+          <span className="text-xl font-bold text-gray-900 hidden sm:inline">Bobs Luxury Automobile</span>
+        </Link>
 
         {/* Mobile Menu Button */}
         <div className="md:hidden">
@@ -20,10 +29,15 @@ export default function Navbar() {
           </button>
         </div>
 
-        {/* Desktop Nav Items (centered) */}
-        <div className="hidden md:flex flex-1 justify-center">
+        {/* Desktop Nav Items (aligned right) */}
+        <motion.div
+          className="hidden md:flex flex-1 justify-end"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.2 }}
+        >
           <NavItems />
-        </div>
+        </motion.div>
       </div>
 
       {/* Mobile Dropdown Menu */}
@@ -32,7 +46,7 @@ export default function Navbar() {
           <NavItems isMobile />
         </div>
       )}
-    </nav>
+    </motion.nav>
   );
 }
 
@@ -40,32 +54,44 @@ function NavItems({ isMobile = false }: { isMobile?: boolean }) {
   return (
     <ul
       className={`flex ${
-        isMobile ? "flex-col gap-3" : "flex-row gap-6"
-      } font-medium text-gray-800 text-sm items-center`}
+        isMobile ? "flex-col gap-3" : "flex-row gap-10"
+      } font-semibold text-lg text-gray-800 items-center`}
     >
-      <li>
+      <motion.li
+        whileHover={{ scale: 1.1 }}
+        transition={{ type: "spring", stiffness: 300 }}
+      >
         <Link href="/">Home</Link>
-      </li>
-      <li>
+      </motion.li>
+      <motion.li
+        whileHover={{ scale: 1.1 }}
+        transition={{ type: "spring", stiffness: 300 }}
+      >
         <Link href="/about">About</Link>
-      </li>
+      </motion.li>
       <Dropdown
         title="Services"
         items={[
-          { label: "Rat", href: "/pest-control-services/rat" },
-          { label: "Cockroach", href: "/pest-control-services/cockroach" },
-          { label: "Termite", href: "/pest-control-services/termite" },
-          { label: "Ant", href: "/pest-control-services/ant" },
-          { label: "Mosquito", href: "/pest-control-services/mosquito" },
+          { label: "auto financing", href: "/auto-services/auto-financing" },
+          { label: "car detailing", href: "/auto-services/car-detailing" },
+          { label: "car sales", href: "/auto-services/car-sales" },
+          { label: "car trade in", href: "/auto-services/car-trade-in" },
+          { label: "vehicle servicing", href: "/auto-services/vehicle-servicing" },
         ]}
         isMobile={isMobile}
       />
-      <li>
+      <motion.li
+        whileHover={{ scale: 1.1 }}
+        transition={{ type: "spring", stiffness: 300 }}
+      >
         <Link href="/testimonial">Testimonials</Link>
-      </li>
-      <li>
+      </motion.li>
+      <motion.li
+        whileHover={{ scale: 1.1 }}
+        transition={{ type: "spring", stiffness: 300 }}
+      >
         <Link href="/contact">Contact</Link>
-      </li>
+      </motion.li>
     </ul>
   );
 }
@@ -82,10 +108,12 @@ function Dropdown({
   const [open, setOpen] = useState(false);
 
   return (
-    <li
+    <motion.li
       className={`relative ${isMobile ? "" : "group"} cursor-pointer`}
       onMouseEnter={() => !isMobile && setOpen(true)}
       onMouseLeave={() => !isMobile && setOpen(false)}
+      whileHover={{ scale: 1.1 }}
+      transition={{ type: "spring", stiffness: 300 }}
     >
       <span
         onClick={() => isMobile && setOpen((prev) => !prev)}
@@ -102,11 +130,16 @@ function Dropdown({
         }`}
       >
         {items.map((item) => (
-          <li key={item.href} className="hover:bg-gray-100 px-4 py-2">
+          <motion.li
+            key={item.href}
+            className="hover:bg-gray-100 px-4 py-2"
+            whileHover={{ scale: 1.05 }}
+            transition={{ type: "spring", stiffness: 300 }}
+          >
             <Link href={item.href}>{item.label}</Link>
-          </li>
+          </motion.li>
         ))}
       </ul>
-    </li>
+    </motion.li>
   );
 }

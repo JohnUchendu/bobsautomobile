@@ -1,9 +1,8 @@
-import Moreabout from '@/components/Moreabout'
-import Testimonials from '@/components/Testimonial'
-import ContactForm from '@/components/ContactForm'
-import React from 'react'
+import Testimonials from "@/components/Testimonials";
+import ContactForm from "@/components/Contact";
+import React from "react";
 
-import { Metadata } from 'next';
+import { Metadata } from "next";
 
 
 export const metadata: Metadata = {
@@ -17,20 +16,51 @@ export const metadata: Metadata = {
   // openGraph: {
   //   images: '/og-image.png',
   // },
-  title: "Contact Benfield Attorneys and Solicitors",
-  description:
-    "Contact Benfield Attorneys and Solicitors legal services in Lagos, Nigeria. Navigate regulations, mergers, acquisitions, and compliance with Benfield Attorneys and Solicitors",
+  title: "Contact Bobs Automobile",
+  description: "Contact Bobs Automobile services in Port Harcourt",
   generator: "",
-  applicationName: "Benfield Attorneys and Solicitors",
+  applicationName: "Bobs Automobile",
   referrer: "origin-when-cross-origin",
   keywords: [
-    "Contact Law firm services",
-    "Contact service",
-    "Contact legal service ",
-    "Contact law service ",
-    "Contact attorneys",
-    "Contact a lawyer needed for law case",
-    "Contact for legal court case lawyer",
+    "Contact car dealership services",
+
+    "Contact vehicle service",
+
+    "Contact auto repair shop",
+
+    "Contact car maintenance service",
+
+    "Contact certified mechanics",
+
+    "Contact for car diagnostics",
+
+    "Book car servicing online",
+
+    "Schedule auto maintenance appointment",
+
+    "Contact vehicle inspection center",
+
+    "Contact for brake and oil change",
+
+    "Contact a car dealer near me",
+
+    "Contact auto sales expert",
+
+    "Book a test drive appointment",
+
+    "Contact for new car purchase",
+
+    "Contact used car dealership",
+
+    "Schedule car showroom visit",
+
+    "Contact for affordable car deals",
+
+    "Contact car dealer for trade-in",
+
+    "Book appointment to buy a car",
+
+    "Contact for luxury car consultation    ",
   ],
   authors: [{ name: "ECA" }],
   creator: "ECA",
@@ -44,12 +74,11 @@ export const metadata: Metadata = {
 
 const page = () => {
   return (
-    <div className='pt-25'>
-      <ContactForm/>
-        <Testimonials/>
-
+    <div className="pt-25">
+     <ContactForm/>
+      <Testimonials />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;

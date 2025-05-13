@@ -12,27 +12,25 @@ import { Button } from "@/components/ui/button";
 
 const slides = [
   {
-    image: "/hero/happyfamily.jpg",
-    title: "Residential Pest Control",
-    description: "Providing strategic Pest Control solutions tailored to your needs.",
-    buttonText: "Claim free inspection",
-    link: "/contact", // Add your consultation page link here
+    image: "/automobile/showroom.jpg",
+    title: "Explore the Latest Models",
+    description: "Drive innovation with our wide range of brand-new vehicles at unbeatable prices.",
+    buttonText: "Browse More",
+    link: "/about",
   },
   {
-    image: "/hero/eversafe3.jpg",
-    title: "Commercial Pest Control",
-    description:
-      "Committed to protecting your offices, hotels and schools with diligence and integrity.",
-    buttonText: "Call now",
-    link: "/contact", // Add your services page link here
+    image: "/automobile/carmaintenance.jpg",
+    title: "Trusted Auto Repair Services",
+    description: "Certified technicians ready to keep your vehicle running like new.",
+    buttonText: "Book a Service",
+    link: "/services",
   },
   {
-    image: "/hero/people-disinfecting-biohazard-area.jpg",
-    title: "Your Pest Control Partner",
-    description:
-      "Guiding you through frustrating pest matters with confidence and expertise.",
-    buttonText: "Start eradicating pest",
-    link: "/contact", // Add your contact page link here
+    image: "/automobile/testdrive.jpg",
+    title: "Schedule a Test Drive",
+    description: "Experience comfort, power, and performance before you make the choice.",
+    buttonText: "Test Drive Now",
+    link: "/book-test-drive",
   },
 ];
 
@@ -73,7 +71,7 @@ export default function Hero() {
                     <h2 className="text-4xl font-bold mb-4">{slide.title}</h2>
                     <p className="text-lg mb-6">{slide.description}</p>
                     <Link href={slide.link} passHref>
-                      <Button className="bg-yellow-300 border-2 text-black hover:bg-yellow-200">
+                      <Button className="bg-blue-700 border-2 text-black hover:bg-blue-200">
                         {slide.buttonText}
                       </Button>
                     </Link>

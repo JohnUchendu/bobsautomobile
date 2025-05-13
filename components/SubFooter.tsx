@@ -9,7 +9,7 @@ const SubFooter = () => {
       </div>
 
       <div className="mt-12 flex justify-center">
-        <Link href="https://eaglecontractoragency.vercel.app/">
+        <Link href="https://eaglecontractoragency.vercel.app/#">
           <Image
             src="/eagle.png"
             alt="Eagle Contractor Logo"

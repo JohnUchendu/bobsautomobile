@@ -19,7 +19,7 @@ export default function WhatsAppFloatingChat() {
   const [chatHistory, setChatHistory] = useState<string[]>([]);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [soundPlayed, setSoundPlayed] = useState(false);
-  const whatsappNumber = "2349134810580";
+  const whatsappNumber = "2349138688465";
 
   useEffect(() => {
     const timer1 = setTimeout(() => {

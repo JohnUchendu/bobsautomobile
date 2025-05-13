@@ -3,7 +3,7 @@ import { EB_Garamond } from "next/font/google"; // Replace with your desired fon
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import Topbar from "@/components/Topbar";
+
 import WhatsAppFloatingChat from "@/components/WhatsappCustomerCare";
 
 
@@ -26,7 +26,7 @@ export default function RootLayout({
         className={garamond.variable}
       >
         <WhatsAppFloatingChat/>
-        <Topbar/>
+     
         <Navbar/>
         {children}
         <Footer/>

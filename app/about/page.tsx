@@ -1,6 +1,6 @@
 import AboutUs from "@/components/AboutUs";
 import Hero from "@/components/Hero";
-import Testimonials from "@/components/Testimonial";
+import Testimonials from "@/components/Testimonials";
 import React from "react";
 
 import { Metadata } from "next";
@@ -18,10 +18,10 @@ export const metadata: Metadata = {
   // openGraph: {
   //   images: '/og-image.png',
   // },
-  title: "About DePriest Pest Control",
-  description: "About DePriest Pest Control services in Port Harcourt.",
+  title: "About Bobs Automobile",
+  description: "About Bobs Automobil services in Port Harcourt.",
   generator: "",
-  applicationName: "DePriest Pest Control",
+  applicationName: "Bobs Automobil",
   referrer: "origin-when-cross-origin",
   keywords: [
     "About Our Pest Control Services",

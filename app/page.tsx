@@ -6,27 +6,26 @@ import ClientLogos from "@/components/clients";
 import Hero from "@/components/Hero";
 import OurServices from "@/components/Services";
 import Welcome from "@/components/Welcome";
-import Testimonials from "../components/Testimonial";
-
+import Testimonials from "../components/Testimonials";
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: 'https://acme.com',
+    canonical: "https://acme.com",
     // languages: {
     //   'en-US': '/en-US',
     //   'en-GB': '/en-GB',
     // },
   },
   openGraph: {
-    images: '/og-image.png',
+    images: "/og-image.png",
   },
-  title: "Depriest Pest Control",
-  description: "Pest Control in Port Harcourt ",
-  generator: '',
-  applicationName: 'Depriest',
-  referrer: 'origin-when-cross-origin',
-  keywords: ["Depriest", "Pest control"],
-  authors: [{ name: "ECA"}   ],
+  title: "Bobs Automobile",
+  description: "Luxury Car Dealership in Port Harcourt ",
+  generator: "",
+  applicationName: "bobs automobile",
+  referrer: "origin-when-cross-origin",
+  keywords: ["bobs automobile", "car dealership"],
+  authors: [{ name: "ECA" }],
   creator: " ECA",
   publisher: " ECA",
   formatDetection: {
@@ -42,7 +41,7 @@ const page = () => {
       <Hero />
       <Welcome />
       <AboutUs />
-      
+
       <OurServices />
       <Testimonials />
       <ClientLogos />
