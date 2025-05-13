@@ -38,7 +38,7 @@ const About = () => {
             Your Trusted Automotive Partner
           </h3>
           <p className="text-gray-700 mb-4">
-            Welcome to AutoDrive Motors – where excellence meets performance.
+            Welcome to Bobs Automobile Motors – where excellence meets performance.
             We specialize in high-quality vehicles, seamless car-buying
             experiences, and nationwide delivery.
           </p>
