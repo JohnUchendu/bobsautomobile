@@ -14,8 +14,8 @@ export default function Welcome() {
         transition={{ duration: 0.5 }}
       >
         <Image
-          src="/logos/bobsautomobilelogo.png"
-          alt="bobs automobile Logo"
+          src="/logos/eljardslogo.png"
+          alt="eljards ltd services Logo"
           width={400}
           height={400}
           className="h-24 w-auto"
@@ -29,7 +29,7 @@ export default function Welcome() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        Welcome to Bobs Luxury Automobile
+        Welcome to Eljards Ltd Services
       </motion.h1>
 
       {/* */}
@@ -39,10 +39,13 @@ export default function Welcome() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
       >
-        At Bobs Luxury Automobile Motors, we’re more than just a car dealership. We connect you
-        with vehicles that match your lifestyle, whether you're looking for
-        speed, sophistication, or everyday convenience. With a commitment to
-        trust, transparency, and top-tier service, we help you drive away happy.
+        Eljards Ltd Services is your trusted partner for buying, selling,
+        swapping, and inspecting automobiles through
+        our partnership with <strong>Cars4</strong> and <strong>Jiji</strong>. We also offer expert business
+        consulting solutions to help you grow 10x smarter and faster. Through
+        our partnership with <strong>Wisolar</strong>, we deliver reliable
+        renewable energy services—empowering homes and businesses across
+        Nigeria.
       </motion.p>
 
       {/* Dash Design */}
@@ -60,8 +63,24 @@ export default function Welcome() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.5 }}
       >
-        ...all round luxury automobile service at its optimum
+        ...empowering your drive, your business, and your energy future
       </motion.p>
+
+      {/* Partnerships Image */}
+      <motion.div
+        className="mt-6"
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.6 }}
+      >
+        <Image
+          src="/logos/partnerships.png" // replace with your combined partnerships image
+          alt="Partners: Cars45, Jiji, Wisolar"
+          width={400}
+          height={100}
+          className="mx-auto"
+        />
+      </motion.div>
 
       {/* Call to Action */}
       <motion.div

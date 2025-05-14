@@ -38,7 +38,7 @@ const Footer = () => {
         <motion.div variants={fadeIn} custom={0}>
           <div className="mb-4">
             <Image
-              src="/logos/bobsautomobilelogo.png"
+              src="/logos/eljardslogo.png"
               alt="Bob's Automobile Services"
               width={150}
               height={40}
@@ -56,11 +56,10 @@ const Footer = () => {
         <motion.div variants={fadeIn} custom={1}>
           <h4 className="text-lg font-semibold mb-3">Vehicle Services</h4>
           <ul className="space-y-2">
-            <li><a href="/auto-services/car-sales" className="hover:text-white">Car Sales</a></li>
-            <li><a href="/auto-services/car-detailing" className="hover:text-white">Car Detailing</a></li>
-            <li><a href="/auto-services/car-repairs" className="hover:text-white">Repairs & Maintenance</a></li>
-            <li><a href="/auto-services/auto-financing" className="hover:text-white">Auto Financing</a></li>
-            <li><a href="/auto-services/car-trade-in" className="hover:text-white">Trade-In Services</a></li>
+            <li><a href="/services/automobile-hub" className="hover:text-white">Automobile</a></li>
+            <li><a href="/services/business-consulting" className="hover:text-white">Business Consulting</a></li>
+            <li><a href="/services/renewable-energy" className="hover:text-white">Renewable Energy Solutions</a></li>
+           
           </ul>
         </motion.div>
 
@@ -111,7 +110,7 @@ const Footer = () => {
         {/* Email */}
         <div className="flex items-center gap-2 px-4">
           <Mail size={18} />
-          <span>support@bobsautomobile.com</span>
+          <span>support@eljardsltdservices.com.ng</span>
         </div>
         {/* Address */}
         <div className="flex items-center gap-2 px-4">
@@ -128,7 +127,7 @@ const Footer = () => {
         transition={{ delay: 0.2 }}
         viewport={{ once: true }}
       >
-        &copy; {new Date().getFullYear()} Bob's Automobile Services. All rights reserved.
+        &copy; {new Date().getFullYear()} Eljards Ltd Services. All rights reserved.
       </motion.div>
     </footer>
   );

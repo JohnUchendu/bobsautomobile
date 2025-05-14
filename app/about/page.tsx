@@ -5,7 +5,7 @@ import React from "react";
 
 import { Metadata } from "next";
 import ClientLogos from "@/components/clients";
-import OurServices from "@/components/Services";
+import OurServices from "@/components/ServicesComponent";
 
 export const metadata: Metadata = {
   alternates: {

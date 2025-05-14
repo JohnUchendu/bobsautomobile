@@ -128,7 +128,7 @@ export default function WhatsAppFloatingChat() {
             className="rounded-full bg-green-500 hover:bg-green-600 text-white p-4 shadow-lg relative"
             aria-label="Chat on WhatsApp"
           >
-            <FaWhatsapp size={100} />
+            <FaWhatsapp size={80} />
             {hasNewMessage && (
               <span className="absolute -top-1 -right-1 bg-red-500 text-white rounded-full text-xs w-5 h-5 flex items-center justify-center">
                 1

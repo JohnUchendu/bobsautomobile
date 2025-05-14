@@ -18,8 +18,8 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <img src="/logos/bobsautomobilelogo.png" alt="Logo" className="h-10 w-auto object-contain" />
-          <span className="text-xl font-bold text-gray-900 hidden sm:inline">Bobs Luxury Automobile</span>
+          <img src="/logos/eljardslogo.png" alt="eljards logo" className="h-10 w-auto object-contain" />
+          <span className="text-xl font-bold text-gray-900 hidden sm:inline">EL-jards Ltd Services</span>
         </Link>
 
         {/* Mobile Menu Button */}
@@ -72,11 +72,10 @@ function NavItems({ isMobile = false }: { isMobile?: boolean }) {
       <Dropdown
         title="Services"
         items={[
-          { label: "auto financing", href: "/auto-services/auto-financing" },
-          { label: "car detailing", href: "/auto-services/car-detailing" },
-          { label: "car sales", href: "/auto-services/car-sales" },
-          { label: "car trade in", href: "/auto-services/car-trade-in" },
-          { label: "vehicle servicing", href: "/auto-services/vehicle-servicing" },
+          { label: "Solar", href: "/services/solar" },
+          { label: "Automobile", href: "/services/automobile" },
+          { label: "Consulting", href: "/services/consulting" },
+         
         ]}
         isMobile={isMobile}
       />
