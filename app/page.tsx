@@ -12,8 +12,8 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://eljardsltdservices.com",
     languages: {
-      'en-US': '/en-US',
-      'en-GB': '/en-GB',
+      "en-US": "/en-US",
+      "en-GB": "/en-GB",
     },
   },
   openGraph: {

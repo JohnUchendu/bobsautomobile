@@ -3,43 +3,51 @@ import Hero from "@/components/Hero";
 import Testimonials from "@/components/Testimonials";
 import React from "react";
 
-import { Metadata } from "next";
 import ClientLogos from "@/components/clients";
 import OurServices from "@/components/ServicesComponent";
 
+import { Metadata } from "next";
+
 export const metadata: Metadata = {
   alternates: {
-    canonical: "/",
+    canonical: "https://eljardsltdservices.com/contact",
     languages: {
       "en-US": "/en-US",
       "en-GB": "/en-GB",
     },
   },
-  // openGraph: {
-  //   images: '/og-image.png',
-  // },
-  title: "About Bobs Automobile",
-  description: "About Bobs Automobil services in Port Harcourt.",
+  openGraph: {
+    title: "About Eljards Ltd | Powering Your Home, Business & Drive",
+    description:
+      "From solar installations to car upgrades and business growth, Eljards Ltd is your trusted partner in transformation.",
+    url: "https://eljardsltdservices.com/contact",
+    siteName: "Eljards Ltd Services",
+    images: [
+      {
+        url: "/logos/eljardslogo.png",
+        width: 800,
+        height: 600,
+        alt: "Eljards Ltd Services",
+      },
+    ],
+    locale: "en_NG",
+    type: "website",
+  },
+  title: "About Eljards Ltd Services",
+  description: "About Eljards Ltd Services in Nigeria",
   generator: "",
-  applicationName: "Bobs Automobil",
+  applicationName: "Eljards Ltd Services",
   referrer: "origin-when-cross-origin",
   keywords: [
-    "About Our Pest Control Services",
-
-    "What Our Pest Control Covers",
-
-    "Comprehensive Pest Management Solutions",
-
-    "Expert Pest Control Services for Every Home",
-
-    "Understanding Pest Problems and Prevention",
-
-    "Need Pest Control? Here's How We Can Help",
-
-    "Professional Help for Severe Pest Infestations",
+    "About car dealership services",
+    "About affordable renewable energy solution",
+    "About solar panels and batteries",
+    "About business consulting ",
+    "About car sales and inspection with cars 45 x jiji",
+    "Contact a car dealer near me",
   ],
   authors: [{ name: "ECA" }],
-  creator: "Eagle Contractor Agency",
+  creator: "ECA",
   publisher: "ECA",
   formatDetection: {
     email: false,

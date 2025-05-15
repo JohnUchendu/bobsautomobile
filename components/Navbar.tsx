@@ -74,7 +74,7 @@ function NavItems({ isMobile = false }: { isMobile?: boolean }) {
         items={[
           { label: "Solar", href: "/services/solar" },
           { label: "Automobile", href: "/services/automobile" },
-          { label: "Consulting", href: "/services/consulting" },
+          { label: "Business-Consulting", href: "/services/business-consulting" },
          
         ]}
         isMobile={isMobile}

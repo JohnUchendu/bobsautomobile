@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React from "react";
 import { motion } from "framer-motion";
@@ -14,11 +14,18 @@ import {
 const AutomobileService = () => {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
-      <div className="flex justify-center">
+      <div className="flex p-4 justify-center">
         <Image
-          src="/images/partnership-logos.png" // Replace with your actual image path
+          src="/logos/cars45xjiji.jpeg" // Replace with your actual image path
           alt="Cars45, Jiji, and The Automobile Hub Partnership"
-          width={600}
+          width={100}
+          height={100}
+          className="object-contain"
+        />
+        <Image
+          src="/logos/eljardslogo.png" // Replace with your actual image path
+          alt="Cars45, Jiji, and The Automobile Hub Partnership"
+          width={100}
           height={100}
           className="object-contain"
         />
@@ -48,51 +55,23 @@ const AutomobileService = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.6 }}
-        className="list-disc pl-5 text-gray-700"
+        className="list-disc pl-5 text-gray-700 mb-8"
       >
         <li>On-the-spot vehicle inspection</li>
         <li>Hassle-free paperwork</li>
         <li>Verified listings for peace of mind</li>
         <li>Trade-in and swap options available</li>
       </motion.ul>
-      <motion.p
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.5, duration: 0.6 }}
-        className="text-gray-700 text-lg mb-6"
-      >
-        <strong>The Automobile Hub – In Partnership with Cars45 & Jiji:</strong>{" "}
-        We provide a seamless platform to inspect, buy, sell, and swap used cars
-        with confidence. Whether you’re upgrading your vehicle or exploring the
-        pre-owned market, our partnerships with Cars45 and Jiji ensure you
-        access vetted listings, expert inspections, and secure transactions.
-      </motion.p>
-
-      <motion.p
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.7, duration: 0.6 }}
-        className="text-gray-700 text-lg mb-8"
-      >
-        <strong>Our offerings include:</strong>
-        <br />
-        • On-the-spot vehicle inspection
-        <br />
-        • Hassle-free documentation
-        <br />
-        • Trade-in and swap options
-        <br />• Verified listings for buyers and sellers
-      </motion.p>
 
       {/* CTA Button */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.9, duration: 0.6 }}
-        className="text-center"
+        className="text-center mb-8"
       >
-        <Link href="/get-started">
-          <button className="bg-blue-800 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+        <Link href="/contact">
+          <button className="bg-blue-800 text-white px-6 py-3 rounded-lg hover:bg-blue-400 cursor-pointer transition">
             Get Started with Your Vehicle Today
           </button>
         </Link>
