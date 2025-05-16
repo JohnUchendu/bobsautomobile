@@ -1,7 +1,8 @@
-import Testimonials from "@/components/Testimonials";
+
 import ContactForm from "@/components/Contact";
 import React from "react";
 import { Metadata } from "next";
+import WhatTheySay from "@/components/WhatTheySay";
 
 export const metadata: Metadata = {
   alternates: {
@@ -54,7 +55,7 @@ const page = () => {
   return (
     <div className="pt-25">
       <ContactForm />
-      <Testimonials />
+     <WhatTheySay/>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 // import type { Metadata } from "next";
 
-import Testimonials from "@/components/Testimonials";
+import WhatTheySay from "@/components/WhatTheySay";
 
 export default function Layout({
   children,
@@ -11,7 +11,7 @@ export default function Layout({
     <html lang="en">
       <body>
         {children}
-        <Testimonials />
+        <WhatTheySay />
       </body>
     </html>
   );

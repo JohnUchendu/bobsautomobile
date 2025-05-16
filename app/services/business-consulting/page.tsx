@@ -1,10 +1,8 @@
-// app/services/consulting/page.tsx
-
 import ConsultingService from "@/components/ConsultingService";
 
 export const metadata = {
   alternates: {
-    canonical: "https://eljardsltdservices.com/services/consulting",
+    canonical: "https://eljardsltdservices.com/services/business-consulting/",
     languages: {
       "en-US": "/en-US",
       "en-GB": "/en-GB",
@@ -14,7 +12,7 @@ export const metadata = {
     title: "Business Consulting in Nigeria | Grow with Eljards Ltd",
     description:
       "10x your business with our data-driven consulting. We unlock profitability, market expansion, and product leadership using mind engineering strategies.",
-    url: "https://eljardsltdservices.com/services/consulting",
+    url: "https://eljardsltdservices.com/services/business-consulting",
     siteName: "Eljards Ltd Services",
     images: [
       {
@@ -40,7 +38,5 @@ export const metadata = {
 };
 
 export default function ConsultingPage() {
-  return (
-    <ConsultingService/>
-  );
+  return <ConsultingService />;
 }

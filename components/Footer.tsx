@@ -12,6 +12,7 @@ import {
   MapPin,
 } from "lucide-react";
 import { motion } from "framer-motion";
+import SubFooter from "./SubFooter";
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -54,7 +55,7 @@ const Footer = () => {
 
         {/* Vehicle Services */}
         <motion.div variants={fadeIn} custom={1}>
-          <h4 className="text-lg font-semibold mb-3">Vehicle Services</h4>
+          <h4 className="text-lg font-semibold mb-3">Services</h4>
           <ul className="space-y-2">
             <li><a href="/services/automobile-hub" className="hover:text-white">Automobile</a></li>
             <li><a href="/services/business-consulting" className="hover:text-white">Business Consulting</a></li>
@@ -129,6 +130,7 @@ const Footer = () => {
       >
         &copy; {new Date().getFullYear()} Eljards Ltd Services. All rights reserved.
       </motion.div>
+      <SubFooter/>
     </footer>
   );
 };

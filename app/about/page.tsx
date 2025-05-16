@@ -1,12 +1,13 @@
 import AboutUs from "@/components/AboutUs";
 import Hero from "@/components/Hero";
-import Testimonials from "@/components/Testimonials";
+
 import React from "react";
 
-import ClientLogos from "@/components/clients";
+import ClientLogos from "@/components/Clients";
 import OurServices from "@/components/ServicesComponent";
 
 import { Metadata } from "next";
+import WhatTheySay from "@/components/WhatTheySay";
 
 export const metadata: Metadata = {
   alternates: {
@@ -62,7 +63,7 @@ const page = () => {
       <div className="pt-10">
         <AboutUs />
       </div>
-      <Testimonials />
+      <WhatTheySay />
       <ClientLogos />
       <Hero />
       <OurServices />

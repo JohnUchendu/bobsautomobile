@@ -2,11 +2,12 @@ import React from "react";
 import type { Metadata } from "next";
 
 import AboutUs from "@/components/AboutUs";
-import ClientLogos from "@/components/clients";
+import ClientLogos from "@/components/Clients";
 import Hero from "@/components/Hero";
 import OurServices from "@/components/ServicesComponent";
 import Welcome from "@/components/Welcome";
-import Testimonials from "../components/Testimonials";
+import WhatTheySay from "@/components/WhatTheySay";
+
 
 export const metadata: Metadata = {
   alternates: {
@@ -67,7 +68,7 @@ const page = () => {
       <AboutUs />
 
       <OurServices />
-      <Testimonials />
+     <WhatTheySay />
       <ClientLogos />
     </div>
   );

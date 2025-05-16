@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React from "react";
 import { motion } from "framer-motion";
@@ -16,9 +16,9 @@ const ConsultingService = () => {
     <div className="max-w-4xl mx-auto px-4 py-12">
       <div className="flex justify-center">
         <Image
-          src="/images/partnership-logos.png" // Replace with your actual image path
-          alt="Cars45, Jiji, and The Automobile Hub Partnership"
-          width={600}
+          src="/logos/eljardslogo.png" // Replace with your actual image path
+          alt="Business consulting"
+          width={100}
           height={100}
           className="object-contain"
         />
@@ -48,40 +48,13 @@ const ConsultingService = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.6 }}
-        className="list-disc pl-5 text-gray-700"
+        className="list-disc pl-5 text-gray-700 mb-8"
       >
-        <li>Launch with market-ready product positioning</li>
-        <li>Stay relevant in changing customer environments</li>
-        <li>Dominate your category with a proven plan</li>
+        We ensure
+        <li>Product penetration for startups entering competitive markets</li>
+        <li>Product relevance in dynamic customer environments</li>
+        <li>Product dominance for established brands aiming for leadership</li>
       </motion.ul>
-      <motion.p
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.5, duration: 0.6 }}
-        className="text-gray-700 text-lg mb-6"
-      >
-        <strong>The Automobile Hub – In Partnership with Cars45 & Jiji:</strong>{" "}
-        We provide a seamless platform to inspect, buy, sell, and swap used cars
-        with confidence. Whether you’re upgrading your vehicle or exploring the
-        pre-owned market, our partnerships with Cars45 and Jiji ensure you
-        access vetted listings, expert inspections, and secure transactions.
-      </motion.p>
-
-      <motion.p
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.7, duration: 0.6 }}
-        className="text-gray-700 text-lg mb-8"
-      >
-        <strong>Our offerings include:</strong>
-        <br />
-        • On-the-spot vehicle inspection
-        <br />
-        • Hassle-free documentation
-        <br />
-        • Trade-in and swap options
-        <br />• Verified listings for buyers and sellers
-      </motion.p>
 
       {/* CTA Button */}
       <motion.div
@@ -91,8 +64,8 @@ const ConsultingService = () => {
         className="text-center"
       >
         <Link href="/get-started">
-          <button className="bg-blue-800 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
-            Get Started with Your Vehicle Today
+          <button className="bg-blue-800 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition mb-8">
+            10x Your Business
           </button>
         </Link>
       </motion.div>
@@ -114,52 +87,56 @@ const ConsultingService = () => {
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="q1">
             <AccordionTrigger>
-              Do you inspect all used cars listed?
+              Do you analyze each client's business before consulting?
             </AccordionTrigger>
             <AccordionContent>
-              Yes, every car listed goes through a thorough inspection to verify
-              its condition. Our experts assess key systems to ensure safety and
-              reliability.
+              Yes, every engagement starts with a thorough audit of your
+              business model, market position, and operational challenges. This
+              enables us to deliver strategic solutions rooted in real data.
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="q2">
             <AccordionTrigger>
-              Can I swap my current car for another?
+              Can you help pivot or reposition my business?
             </AccordionTrigger>
             <AccordionContent>
-              Absolutely. Our swap service lets you trade in your current
-              vehicle and upgrade to a different one without the usual stress
-              and delays.
+              Absolutely. Whether you're shifting to a new market or rebranding
+              your offerings, we guide the transformation with proven frameworks
+              and market-tested strategies.
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="q3">
-            <AccordionTrigger>Are your listings verified?</AccordionTrigger>
+            <AccordionTrigger>
+              Is your strategy advice tailored or generic?
+            </AccordionTrigger>
             <AccordionContent>
-              Yes, we only list cars that have passed documentation checks and
-              meet our quality criteria. You’re buying with peace of mind.
+              All our recommendations are tailored. We don’t believe in
+              one-size-fits-all. Our consulting is customized to your industry,
+              goals, and current business lifecycle stage.
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="q4">
             <AccordionTrigger>
-              How long does the inspection process take?
+              How long does a typical consulting engagement take?
             </AccordionTrigger>
             <AccordionContent>
-              Vehicle inspections typically take 30–60 minutes depending on the
-              make and model. We ensure you get accurate results fast.
+              Engagements vary based on scope, but most clients see measurable
+              results within 4–8 weeks. We work in sprints to deliver quick wins
+              and long-term clarity.
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="q5">
             <AccordionTrigger>
-              Is there a warranty or buyer protection?
+              Is there a guarantee on results?
             </AccordionTrigger>
             <AccordionContent>
-              While we don’t offer manufacturer warranties, we do provide full
-              transparency and a trusted buying process backed by our partners
-              Cars45 and Jiji.
+              While we don’t promise unrealistic outcomes, our process is
+              results-driven and performance-based. We align our success with
+              your growth through KPIs and milestone tracking.
             </AccordionContent>
           </AccordionItem>
         </Accordion>

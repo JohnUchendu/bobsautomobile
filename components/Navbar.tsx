@@ -72,8 +72,8 @@ function NavItems({ isMobile = false }: { isMobile?: boolean }) {
       <Dropdown
         title="Services"
         items={[
-          { label: "Solar", href: "/services/solar" },
-          { label: "Automobile", href: "/services/automobile" },
+          { label: "Renewable Energy", href: "/services/renewable-energy" },
+          { label: "Automobile", href: "/services/automobile-hub" },
           { label: "Business-Consulting", href: "/services/business-consulting" },
          
         ]}
@@ -83,7 +83,7 @@ function NavItems({ isMobile = false }: { isMobile?: boolean }) {
         whileHover={{ scale: 1.1 }}
         transition={{ type: "spring", stiffness: 300 }}
       >
-        <Link href="/testimonial">Testimonials</Link>
+        <Link href="/testimonials">Testimonials</Link>
       </motion.li>
       <motion.li
         whileHover={{ scale: 1.1 }}
