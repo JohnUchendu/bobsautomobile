@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 
 import React from "react";
 
-import ClientLogos from "@/components/Clients";
+import ClientLogos from "@/components/ClientsLogo";
 import OurServices from "@/components/ServicesComponent";
 
 import { Metadata } from "next";

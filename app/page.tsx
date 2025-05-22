@@ -2,7 +2,7 @@ import React from "react";
 import type { Metadata } from "next";
 
 import AboutUs from "@/components/AboutUs";
-import ClientLogos from "@/components/Clients";
+import ClientLogos from "@/components/ClientsLogo";
 import Hero from "@/components/Hero";
 import OurServices from "@/components/ServicesComponent";
 import Welcome from "@/components/Welcome";
