@@ -12,6 +12,14 @@ import {
 const RenewableEnergy = () => {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
+      <Image
+        src="/logos/eljardslogo.png" // Replace with your actual image path
+          alt="Cars45, Jiji, and The Automobile Hub Partnership"
+          width={100}
+          height={100}
+          className="object-contain"
+      
+      />
       <h1 className="text-4xl font-bold text-center text-gray-800 mb-4">
         Renewable Energy Solutions - In partnership with Wisolar
       </h1>
