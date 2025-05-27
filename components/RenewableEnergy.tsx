@@ -9,24 +9,28 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const AutomobileService = () => {
+const RenewableEnergy = () => {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
       <h1 className="text-4xl font-bold text-center text-gray-800 mb-4">
-        The Automobile Hub
+        Renewable Energy Solutions - In partnership with Wisolar
       </h1>
 
       <p className="text-gray-700 text-lg text-center mb-8">
-        We simplify your vehicle journey. In partnership with{" "}
-        <strong>Cars45</strong> and <strong>Jiji</strong>, Eljards Ltd offers a
-        seamless way to <strong>buy, sell, inspect, or trade</strong> used
-        vehicles across Nigeria.
+        We bring affordable solar energy to residential homes through flexible
+        installment payment plans In collaboration with <strong>Wisolar</strong>
+        , we are committed to accelerating the adoption of clean, renewable
+        energy across communities.
+      </p>
+      <p>
+        Our goal is to help you reduce your energy bills, minimize your carbon
+        footprint, and achieve energy independence-without the upfront burden
       </p>
       <ul className="list-disc pl-5 text-gray-700 mb-8">
-        <li>On-the-spot vehicle inspection</li>
-        <li>Hassle-free paperwork</li>
-        <li>Verified listings for peace of mind</li>
-        <li>Trade-in and swap options available</li>
+        <li>Free site assessment and energy audit</li>
+        <li>Seamless installation and setup</li>
+        <li>Certified solar equipment with warranties</li>
+        <li>Flexible financing and incentive guidance</li>
       </ul>
 
       <div className="flex p-4 justify-center">
@@ -62,53 +66,55 @@ const AutomobileService = () => {
       <div>
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="q1">
-            <AccordionTrigger>
-              Do you inspect all used cars listed?
-            </AccordionTrigger>
+            <AccordionTrigger>How do solar panels work?</AccordionTrigger>
             <AccordionContent>
-              Yes, every car listed goes through a thorough inspection to verify
-              its condition. Our experts assess key systems to ensure safety and
-              reliability.
+              Solar panels convert sunlight into electricity using photovoltaic
+              cells. When photons hit the cells, they generate an electric
+              current that can power your home or business.
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="q2">
             <AccordionTrigger>
-              Can I swap my current car for another?
+              What is the lifespan of a solar energy system?
             </AccordionTrigger>
             <AccordionContent>
-              Absolutely. Our swap service lets you trade in your current
-              vehicle and upgrade to a different one without the usual stress
-              and delays.
+              Most solar panels come with a 25-year performance warranty, and
+              systems can continue producing electricity for 30+ years with
+              minimal efficiency loss.
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="q3">
-            <AccordionTrigger>Are your listings verified?</AccordionTrigger>
+            <AccordionTrigger>
+              Do I need batteries for solar power?
+            </AccordionTrigger>
             <AccordionContent>
-              Yes, we only list cars that have passed documentation checks and
-              meet our quality criteria. You’re buying with peace of mind.
+              Batteries are optional. With a grid-tied system, excess energy is
+              fed back to the grid. Adding a battery bank provides backup power
+              during outages and maximizes self-consumption.
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="q4">
             <AccordionTrigger>
-              How long does the inspection process take?
+              How much can I save on my electricity bill?
             </AccordionTrigger>
             <AccordionContent>
-              Vehicle inspections typically take 30–60 minutes depending on the
-              make and model. We ensure you get accurate results fast.
+              Savings depend on system size, local electricity rates, and
+              sunlight exposure. On average, homeowners see 50–90% reduction in
+              their monthly bills.
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="q5">
             <AccordionTrigger>
-              Is there a warranty or buyer protection?
+              Are there incentives or rebates available?
             </AccordionTrigger>
             <AccordionContent>
-              While we don’t offer manufacturer warranties, we do provide full
-              transparency and a trusted buying process backed by our partners
-              Cars45 and Jiji.
+              Yes. Many regions offer tax credits, rebates, and net-metering
+              programs to lower installation costs and improve payback times.
+              We’ll help you navigate available incentives.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
@@ -117,4 +123,4 @@ const AutomobileService = () => {
   );
 };
 
-export default AutomobileService;
+export default RenewableEnergy;

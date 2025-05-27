@@ -5,17 +5,17 @@ import { motion } from "framer-motion";
 const testimonials = [
   {
     quote:
-      "Bobs Automobile transformed my old Toyota into a machine that feels brand new. Their attention to detail and timely delivery are unmatched. Definitely my go-to auto shop from now on.",
+      "Eljards transformed my old Toyota into a machine that feels brand new. Their attention to detail and timely delivery are unmatched. Definitely my go-to auto shop from now on.",
     company: "Johnson U., Lagos",
   },
   {
     quote:
-      "We use Bobs Automobile for our entire fleet and have never had an issue. Their diagnostic precision and customer service are top tier. Highly recommended for corporate vehicle maintenance.",
-    company: "Fleet Manager, XYZ Logistics",
+      "We use Eljards solar solutions for our entire estates and have never had an issue. Their diagnostic precision and customer service are top tier. Highly recommended for residential energy solutions.",
+    company: "Estate Manager, Kano",
   },
   {
     quote:
-      "The team at Bobs is professional, friendly, and extremely efficient. They helped me fix my brake system faster than any service center I’ve used. Honest pricing too!",
+      "The team at Eljards is professional, friendly, and extremely efficient. They helped me fix my failing business, I was impressed by the results",
     company: "Faith O., Port Harcourt",
   },
 ];

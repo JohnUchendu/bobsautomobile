@@ -1,9 +1,14 @@
-import React from 'react'
+import RenewableEnergy from "@/components/RenewableEnergy";
+import SolarHero from "@/components/ServiceComponents/SolarHero";
+import React from "react";
 
 const page = () => {
   return (
-    <div>solar</div>
-  )
-}
+    <div>
+      {/* <SolarHero /> */}
+      <RenewableEnergy />
+    </div>
+  );
+};
 
-export default page
+export default page;

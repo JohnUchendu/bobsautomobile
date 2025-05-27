@@ -19,7 +19,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <img src="/logos/eljardslogo.png" alt="eljards logo" className="h-10 w-auto object-contain" />
-          <span className="text-xl font-bold text-gray-900 hidden sm:inline">EL-jards Ltd Services</span>
+          <span className="text-xl font-bold text-gray-900 hidden sm:inline">EL-jards</span>
         </Link>
 
         {/* Mobile Menu Button */}
@@ -72,9 +72,9 @@ function NavItems({ isMobile = false }: { isMobile?: boolean }) {
       <Dropdown
         title="Services"
         items={[
-          { label: "Renewable Energy", href: "/services/renewable-energy" },
-          { label: "Automobile", href: "/services/automobile-hub" },
           { label: "Business-Consulting", href: "/services/business-consulting" },
+          { label: "Automobile", href: "/services/automobile-hub" },
+          { label: "Renewable Energy ", href: "/services/renewable-energy" },
          
         ]}
         isMobile={isMobile}

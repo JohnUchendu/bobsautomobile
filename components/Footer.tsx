@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import React from "react";
 import Image from "next/image";
@@ -47,9 +47,21 @@ const Footer = () => {
           </div>
           <h4 className="text-lg font-semibold mb-3">Quick Links</h4>
           <ul className="space-y-2">
-            <li><a href="/" className="hover:text-white">Home</a></li>
-            <li><a href="/about" className="hover:text-white">About Us</a></li>
-            <li><a href="/contact" className="hover:text-white">Contact Us</a></li>
+            <li>
+              <a href="/" className="hover:text-white">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="/about" className="hover:text-white">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a href="/contact" className="hover:text-white">
+                Contact Us
+              </a>
+            </li>
           </ul>
         </motion.div>
 
@@ -57,10 +69,24 @@ const Footer = () => {
         <motion.div variants={fadeIn} custom={1}>
           <h4 className="text-lg font-semibold mb-3">Services</h4>
           <ul className="space-y-2">
-            <li><a href="/services/automobile-hub" className="hover:text-white">Automobile</a></li>
-            <li><a href="/services/business-consulting" className="hover:text-white">Business Consulting</a></li>
-            <li><a href="/services/renewable-energy" className="hover:text-white">Renewable Energy Solutions</a></li>
-           
+            <li>
+              <a href="/services/automobile-hub" className="hover:text-white">
+                Automobile
+              </a>
+            </li>
+            <li>
+              <a
+                href="/services/business-consulting"
+                className="hover:text-white"
+              >
+                Business Consulting
+              </a>
+            </li>
+            <li>
+              <a href="/services/renewable-energy" className="hover:text-white">
+                Renewable Energy Solutions
+              </a>
+            </li>
           </ul>
         </motion.div>
 
@@ -68,10 +94,21 @@ const Footer = () => {
         <motion.div variants={fadeIn} custom={2}>
           <h4 className="text-lg font-semibold mb-3">Customer Support</h4>
           <ul className="space-y-2">
-            <li><a href="/faq" className="hover:text-white">FAQs</a></li>
-            <li><a href="/terms" className="hover:text-white">Terms & Conditions</a></li>
-            <li><a href="/privacy" className="hover:text-white">Privacy Policy</a></li>
-            <li><a href="/appointments" className="hover:text-white">Book an Appointment</a></li>
+            <li>
+              <a href="/faq" className="hover:text-white">
+                FAQs
+              </a>
+            </li>
+            <li>
+              <a href="/terms" className="hover:text-white">
+                Terms & Conditions
+              </a>
+            </li>
+            <li>
+              <a href="/privacy" className="hover:text-white">
+                Privacy Policy
+              </a>
+            </li>
           </ul>
         </motion.div>
 
@@ -79,16 +116,36 @@ const Footer = () => {
         <motion.div variants={fadeIn} custom={3}>
           <h4 className="text-lg font-semibold mb-3">Connect With Us</h4>
           <div className="flex space-x-4 mt-4">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
               <Facebook width={20} height={20} />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
               <Instagram width={20} height={20} />
             </a>
-            <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+            <a
+              href="https://x.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
               <Twitter width={20} height={20} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
               <Linkedin width={20} height={20} />
             </a>
           </div>
@@ -128,9 +185,10 @@ const Footer = () => {
         transition={{ delay: 0.2 }}
         viewport={{ once: true }}
       >
-        &copy; {new Date().getFullYear()} Eljards Ltd Services. All rights reserved.
+        &copy; {new Date().getFullYear()} Eljards Ltd Services. All rights
+        reserved.
       </motion.div>
-      <SubFooter/>
+      <SubFooter />
     </footer>
   );
 };
