@@ -35,8 +35,8 @@ const RenewableEnergy = () => {
 
       <div className="flex p-4 justify-center">
         <Image
-          src="/logos/cars45xjiji.jpeg" // Replace with your actual image path
-          alt="Cars45, Jiji, and The Automobile Hub Partnership"
+          src="/logos/wisolar.png" // Replace with your actual image path
+          alt="wisolar, solar panels"
           width={100}
           height={100}
           className="object-contain"
@@ -54,7 +54,7 @@ const RenewableEnergy = () => {
       <div className="text-center mb-8">
         <Link href="/contact">
           <button className="bg-blue-800 text-white px-6 py-3 rounded-lg hover:bg-blue-400 cursor-pointer transition">
-            Get Started with Your Vehicle Today
+            Get Started with Stable Electricity
           </button>
         </Link>
       </div>
