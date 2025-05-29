@@ -1,4 +1,4 @@
-// import AboutUs from "@/components/AboutUs";
+import AboutUs from "@/components/AboutUs";
 import Hero from "@/components/Hero";
 
 import React from "react";
@@ -61,7 +61,7 @@ const page = () => {
   return (
     <>
       <div className="pt-10">
-        {/* <AboutUs /> */}
+        <AboutUs />
       </div>
       <WhatTheySay />
       <ClientLogos />

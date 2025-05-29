@@ -1,7 +1,7 @@
 import React from "react";
 import type { Metadata } from "next";
 
-// import AboutUs from "@/components/AboutUs";
+import AboutUs from "@/components/AboutUs";
 import ClientLogos from "@/components/ClientsLogo";
 import Hero from "@/components/Hero";
 import OurServices from "@/components/ServicesComponent";
@@ -65,7 +65,7 @@ const page = () => {
     <div>
       <Hero />
       <Welcome />
-      {/* <AboutUs /> */}
+      <AboutUs />
 
       <OurServices />
      <WhatTheySay />

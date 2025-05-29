@@ -18,7 +18,7 @@ const ConsultingService = () => {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="text-3xl font-semibold text-gray-800 mb-4"
+        className="text-2xl text-gray-800 mb-4"
       >
         We’ve Watched Great Ideas Fail — Not Because They Weren’t Good, But
         Because They Weren’t Guided.
@@ -75,7 +75,7 @@ const ConsultingService = () => {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="text-3xl font-semibold text-gray-800 mb-4"
+        className="text-2xl text-gray-800 mb-4"
       >
         Then We Stopped Watching… And Started Building with Them.
       </motion.h1>
@@ -95,7 +95,7 @@ const ConsultingService = () => {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="text-3xl font-semibold text-gray-800 mb-4"
+        className="text-2xl text-gray-800 mb-4"
       >
         Because We Know What’s at Stake.
         <p className="text-xl">
@@ -119,7 +119,7 @@ const ConsultingService = () => {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="text-3xl font-semibold text-gray-800 mb-4"
+        className="text-2xl  text-gray-800 mb-4"
       >
         Here’s What We Deliver — Hands-On:
       </motion.h1>
@@ -146,7 +146,7 @@ const ConsultingService = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.9, duration: 0.6 }}
-        className="text-2xl font-semibold text-gray-800 mb-4"
+        className="text-2xl  text-gray-800 mb-4"
       >
         Let’s Turn Your Vision Into Results.
       </motion.h2>
@@ -176,7 +176,7 @@ const ConsultingService = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.9, duration: 0.6 }}
-        className="text-2xl font-semibold text-gray-800 pt-5 mb-4"
+        className="text-xl text-gray-800 pt-5 mb-4"
       >
         Frequently Asked Questions
       </motion.h2>

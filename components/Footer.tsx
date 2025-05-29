@@ -91,7 +91,7 @@ const Footer = () => {
         </motion.div>
 
         {/* Support */}
-        <motion.div variants={fadeIn} custom={2}>
+        {/* <motion.div variants={fadeIn} custom={2}>
           <h4 className="text-lg font-semibold mb-3">Customer Support</h4>
           <ul className="space-y-2">
             <li>
@@ -110,7 +110,7 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-        </motion.div>
+        </motion.div> */}
 
         {/* Connect With Us */}
         <motion.div variants={fadeIn} custom={3}>
@@ -168,7 +168,7 @@ const Footer = () => {
         {/* Email */}
         <div className="flex items-center gap-2 px-4">
           <Mail size={18} />
-          <span>support@eljardsltdservices.com.ng</span>
+          <span>info@eljardsltdservices.com.ng</span>
         </div>
         {/* Address */}
         <div className="flex items-center gap-2 px-4">

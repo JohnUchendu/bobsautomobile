@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -23,9 +23,9 @@ const About = () => {
           className="md:w-1/2"
         >
           <Image
-            src="/logos/eljardslogo.png"
+            src="/team/eljardsabout.jpg"
             alt="Eljards Ltd Services "
-            width={500}
+            width={400}
             height={400}
             className="rounded-lg shadow-md object-cover"
           />
@@ -33,14 +33,16 @@ const About = () => {
 
         {/* Right Text */}
         <div className="md:w-1/2 text-center md:text-left">
-          <h2 className="text-3xl font-bold text-gray-700 mb-2">About Us</h2>
-          <h3 className="text-lg font-semibold text-gray-600 mb-4">
-            Your Trusted Automotive Partner
-          </h3>
+          <h2 className="text-3xl font-bold text-gray-700 mb-2">
+            About Eljards
+          </h2>
+          <h3 className="text-lg font-semibold text-gray-600 mb-4"></h3>
           <p className="text-gray-700 mb-4">
-            At Eljards Ltd Services – where excellence meets performance.
-            We specialize in high-quality vehicles, seamless car-buying
-            experiences, and nationwide delivery.
+            Eljards was born from real frustration — businesses stuck, homes in
+            darkness, and no clear path forward. We decided to change that.
+            Through expert consulting, clean solar energy, and trusted car
+            dealership, we provide tools that power progress. Whether you're
+            building, buying, or growing — Eljards helps you move smarter.
           </p>
           {/* <p className="text-gray-700 mb-4">
             Our mission is simple: connect you with the car you love, whether
@@ -50,21 +52,23 @@ const About = () => {
           {/* Highlights Section */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-left mt-6 mb-6">
             <div className="bg-white shadow-sm rounded-md p-4">
-              <h4 className="text-xl font-semibold text-green-600">4+</h4>
+              <h4 className="text-xl font-semibold text-gray-600">4+</h4>
               <p className="text-gray-600">Years of excellence</p>
             </div>
             <div className="bg-white shadow-sm rounded-md p-4">
-              <h4 className="text-xl font-semibold text-green-600">100+</h4>
+              <h4 className="text-xl font-semibold text-gray-600">100+</h4>
               <p className="text-gray-600">Satisfied customers</p>
             </div>
             <div className="bg-white shadow-sm rounded-md p-4">
-              <h4 className="text-xl font-semibold text-green-600">Nationwide</h4>
+              <h4 className="text-xl font-semibold text-gray-600">
+                Nationwide
+              </h4>
               <p className="text-gray-600">Service delivery</p>
             </div>
           </div>
 
           <Link href="/contact">
-            <button className="bg-blue-800  text-white px-6 py-2 rounded hover:bg-blue-200 transition">
+            <button className="bg-blue-800  text-white px-6 py-2 rounded-xl hover:bg-blue-700 ">
               Contact
             </button>
           </Link>
