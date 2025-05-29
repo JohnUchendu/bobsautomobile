@@ -84,7 +84,7 @@ export default function ContactForm() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.2 }}
         >
-          <Button type="submit" className="w-full bg-green-600 hover:bg-green-700">
+          <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700">
             Send
           </Button>
         </motion.div>

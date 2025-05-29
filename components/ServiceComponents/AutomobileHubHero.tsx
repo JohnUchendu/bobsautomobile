@@ -12,11 +12,11 @@ import { Button } from "@/components/ui/button";
 
 const slides = [
   {
-    image: "/automobile/showroom.jpg",
+    image: "/areas/cars.jpg",
     title: "Buying or selling a car shouldn’t feel like a gamble.",
     description: "We’ve seen too many people lose time, money, and trust—so we teamed up with Cars45 and Jiji to make vehicle buying, selling, and swapping in Nigeria simple, safe, and hassle-free.",
     buttonText: "Find Your Next Ride Today",
-    link: "/about",
+    link: "/contact",
   },
 //   {
 //     image: "/automobile/carmaintenance.jpg",

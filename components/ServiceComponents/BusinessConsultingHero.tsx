@@ -12,7 +12,7 @@ import { Button } from "@/components/ui/button";
 
 const slides = [
   {
-    image: "/automobile/showroom.jpg",
+    image: "/areas/deals.jpeg",
     title: "We started after watching good businesses fail.",
     description: "Now we help brands escape confusion, scale smart, and win—because no dream deserves to die from lack of guidance.",
     buttonText: "Let’s Grow Together",

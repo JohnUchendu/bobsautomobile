@@ -15,15 +15,15 @@ const slides = [
   // },
   {
     video: "/videos/eljards-hero-cars.mp4",
-    title: "Growing a business is hard. Doing it with power cuts, zero structure, and no reliable car? Brutal.",
-    description: "We help entrepreneurs build smarter — with expert business consulting, solar power that works, and trusted car deals.",
+    title: "Life’s hard enough with power cuts, unreliable transport, and no clear plan.",
+    description: "At Eljards, we help you live and work smarter — with dependable solar solutions, expert guidance, and trusted vehicle services.",
     buttonText: " Book a free clarity call today",
     link: "/contact",
   },
   {
     video: "/videos/eljards-hero-solar.mp4",
-    title: "Growing a business is hard. Doing it with power cuts, zero structure, and no reliable car? Brutal.",
-    description: "We help entrepreneurs build smarter — with expert business consulting, solar power that works, and trusted car deals.",
+    title: "Life’s hard enough with power cuts, unreliable transport, and no clear plan.",
+    description: "At Eljards, we help you live and work smarter — with dependable solar solutions, expert guidance, and trusted vehicle services.",
     buttonText: "Book a free clarity call today",
     link: "/contact",
   },
@@ -61,7 +61,7 @@ export default function Hero() {
               <h2 className="text-4xl font-bold mb-4">{slide.title}</h2>
               <p className="text-lg mb-6">{slide.description}</p>
               <Link href={slide.link} passHref>
-                <Button className="bg-blue-700 rounded-xl text-white hover:bg-blue-200">
+                <Button className="bg-blue-700 rounded-xl text-gray-300 hover:bg-blue-600">
                   {slide.buttonText}
                 </Button>
               </Link>

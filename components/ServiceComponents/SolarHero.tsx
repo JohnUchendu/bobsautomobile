@@ -13,7 +13,7 @@ import { Button } from "@/components/ui/button";
 const slides = [
   
   {
-    image: "/automobile/testdrive.jpg",
+    image: "/areas/solarpanel.webp",
     title: "Power cuts are killing your productivity. And your budget.",
     description: "You deserve energy you can trust — not overpriced diesel, blackouts, or noisy generators. We install reliable solar systems that save you money, reduce stress, and keep your business (or home) running 24/7.",
     buttonText: " Book a free energy assessment today.",

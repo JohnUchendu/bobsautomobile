@@ -23,7 +23,7 @@ export default function ServiceComponent() {
         >
           <div className="mb-4">
             <img
-              src="/areas/wisolarroof.png"
+              src="/areas/solarpanel.webp"
               alt="Renewable Energy"
               className="w-full h-48 object-cover rounded-t-lg"
             />
@@ -51,7 +51,7 @@ export default function ServiceComponent() {
         >
           <div className="mb-4">
             <img
-              src="/areas/carstand.jpeg"
+              src="/areas/cars.jpg"
               alt="Automobile Hub"
               className="w-full h-48 object-cover rounded-t-lg"
             />
@@ -79,7 +79,7 @@ export default function ServiceComponent() {
         >
           <div className="mb-4">
             <img
-              src="/areas/business.jpeg"
+              src="/areas/deals.jpeg"
               alt="Business Consulting"
               className="w-full h-48 object-cover rounded-t-lg"
             />

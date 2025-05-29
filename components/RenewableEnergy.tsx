@@ -15,16 +15,16 @@ const RenewableEnergy = () => {
     <>
       <SolarHero />
       <div className="max-w-4xl mx-auto px-4 py-12 ">
-        <h1 className="text-3xl font-semibold text-gray-800 mb-4">
+        <h1 className="text-xl text-gray-800 mb-4">
           We Know the Frustration of Unreliable Power. We Lived It Too.
         </h1>
-        <p className="text-gray-700 text-lg text-center mb-8">
+        <p className="text-gray-700 mb-8">
           Before we offered solutions, we faced the same problem — days ruined
           by outages, nights in darkness, and bills that kept rising with
           nothing to show for it. We know what it feels like to depend on a
           system that keeps failing.
         </p>
-        <h1 className="text-3xl font-semibold text-gray-800 mb-4">
+        <h1 className="text-xl  text-gray-800 mb-4">
           But Everything Changed When We Took Control of Our Own Energy.
         </h1>
         <p>
@@ -32,14 +32,14 @@ const RenewableEnergy = () => {
           — not just for us, but for everyday families who couldn’t afford large
           upfront costs. We found a smarter way: flexible installment plans,
           certified solar gear, and long-term savings that actually made sense.
+        </p>
           <p>
             Our goal is to help you reduce your energy bills, minimize your
             carbon footprint, and achieve energy independence-without the
             upfront burden
           </p>
-        </p>
         <br />
-        <h1 className="text-3xl font-semibold  text-gray-800 mb-4 pt-5">
+        <h1 className="text-xl   text-gray-800 mb-4 pt-5">
           This Isn’t Just About Power. It’s About Peace of Mind.
         </h1>
         <p>
@@ -52,7 +52,7 @@ const RenewableEnergy = () => {
           And most of all — you deserve energy independence that feels simple
           and achievable.
         </p>
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4 pt-5">
+        <h2 className="text-xl text-gray-800 mb-4 pt-5">
           Here’s How We Make It Happen For You:
         </h2>
         <ul className="list-disc pl-5 text-gray-700 mb-8">
@@ -61,7 +61,7 @@ const RenewableEnergy = () => {
           <li>Certified solar equipment with warranties</li>
           <li>Flexible financing and incentive guidance</li>
         </ul>
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+        <h2 className="text-xl  text-gray-800 mb-4">
           Let’s Bring Power Back Where It Belongs — In Your Hands.
         </h2>
         <div className="flex p-4 justify-center">
@@ -90,7 +90,7 @@ const RenewableEnergy = () => {
           </p>
         </div>
 
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+        <h2 className="text-xl text-gray-800 mb-4">
           Frequently Asked Questions
         </h2>
 

@@ -15,16 +15,37 @@ const AutomobileService = () => {
     <>
       <AutomobileHubHero />
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <h1 className="text-4xl font-bold text-center text-gray-800 mb-4">
-          The Automobile Hub
+        <h1 className="text-2xl text-gray-800 mb-4">
+          Too Many Nigerians Experience Stress When Buying or Selling a Car
         </h1>
 
-        <p className="text-gray-700 text-lg text-center mb-8">
-          We simplify your vehicle journey. In partnership with{" "}
-          <strong>Cars45</strong> and <strong>Jiji</strong>, Eljards Ltd offers
-          a seamless way to <strong>buy, sell, inspect, or trade</strong> used
-          vehicles across Nigeria.
+        <p className="text-gray-700 mb-8">
+          Unverified sellers. No inspections. Endless paperwork. We’ve seen
+          firsthand how challenging it can be to navigate the used vehicle
+          market — and how easily people lose money or time due to a lack of
+          structure and trust.
         </p>
+        <h1 className="text-2xl  text-gray-800 mb-4">
+          That’s Why We Built a Reliable Auto Experience
+        </h1>
+        <p className="text-gray-700 mb-8">
+          Through our partnership with Cars45 and Jiji, Eljards Ltd is changing
+          the way Nigerians buy, sell, and trade vehicles. We’ve combined
+          trusted platforms with in-person inspection and support to create a
+          safe, efficient, and transparent process.
+        </p>
+        <h1 className="text-2xl  text-gray-800 mb-4">
+          Because Every Customer Deserves Confidence in Their Vehicle Journey
+        </h1>
+        <p className="text-gray-700 mb-8">
+          We believe peace of mind should be standard — not a luxury. Over the
+          years, we’ve learned that trust, convenience, and verified systems are
+          key to successful automotive transactions. So we made it our mission
+          to offer just that.
+        </p>
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+          Our Services Include:
+        </h2>
         <ul className="list-disc pl-5 text-gray-700 mb-8">
           <li>On-the-spot vehicle inspection</li>
           <li>Hassle-free paperwork</li>
@@ -50,10 +71,15 @@ const AutomobileService = () => {
         </div>
 
         {/* CTA Button */}
-        <div className="text-center mb-8">
+        <div className=" mb-8">
+          <p className="">
+            Ready to Take the Guesswork Out of Your Next Vehicle Transaction?
+            Whether you're buying, selling, or trading, we offer an efficient
+            and secure process tailored to your needs.
+          </p>
           <Link href="/contact">
             <button className="bg-blue-800 text-white px-6 py-3 rounded-lg hover:bg-blue-400 cursor-pointer transition">
-              Get Started with Your Vehicle Today
+              Get started with a verified inspection or vehicle listing today.
             </button>
           </Link>
         </div>

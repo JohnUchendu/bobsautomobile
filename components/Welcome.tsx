@@ -29,7 +29,7 @@ export default function Welcome() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        Welcome to Eljards Ltd Services
+        We Started Eljards Because Too Many Great Ideas Stalled.
       </motion.h1>
 
       {/* */}
@@ -39,13 +39,14 @@ export default function Welcome() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
       >
-        Eljards Ltd Services is your expert business
-        consulting solutions to help you grow 10x smarter and faster. And trusted partner for buying, selling,
-        swapping, and inspecting automobiles through
-        our partnership with <strong>Cars45</strong> and <strong>Jiji</strong>. And through
-        our partnership with <strong>Wisolar</strong>, we deliver reliable
-        renewable energy services—empowering homes and businesses across
-        Nigeria.
+        So We Built a Company That Solves Real Problems.
+        <p>
+          People don’t need noise — they need honest, workable solutions. That’s
+          what we deliver, every day.
+        </p>
+       Business Growth strategies for startups
+        and brands Solar Power with flexible payment plans Verified Cars for
+        buy, sell, swap or inspect. 
       </motion.p>
 
       {/* Dash Design */}
@@ -63,7 +64,8 @@ export default function Welcome() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.5 }}
       >
-        ...empowering your drive, your business, and your energy future
+        Welcome to Eljards. Progress starts here. Let’s
+        build something that moves you forward.
       </motion.p>
 
       {/* Partnerships Image */}
@@ -104,7 +106,7 @@ export default function Welcome() {
         transition={{ duration: 0.5, delay: 0.6 }}
       >
         <p className="text-2xl text-gray-700 font-semibold">
-        Experience Growth
+       Explore Our Services
         </p>
         <p className="text-2xl font-bold backdrop-blur-2xl bg-blue-600 border rounded-4xl p-3 text-white">
           (234) 913 868 8465

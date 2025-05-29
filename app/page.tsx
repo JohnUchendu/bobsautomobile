@@ -67,7 +67,7 @@ const page = () => {
       <Welcome />
       {/* <AboutUs /> */}
 
-      {/* <OurServices /> */}
+      <OurServices />
      <WhatTheySay />
       <ClientLogos />
     </div>
