@@ -14,67 +14,169 @@ import {
 const ConsultingService = () => {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
-      <div className="flex justify-center">
-        <Image
-          src="/logos/eljardslogo.png" // Replace with your actual image path
-          alt="Business consulting"
-          width={100}
-          height={100}
-          className="object-contain"
-        />
-      </div>
+      <motion.h1
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="text-3xl font-semibold text-gray-800 mb-4"
+      >
+        We’ve Watched Great Ideas Fail — Not Because They Weren’t Good, But
+        Because They Weren’t Guided.
+      </motion.h1>
+      <motion.ul
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.5, duration: 0.6 }}
+        className=" pl-5 text-gray-700 mb-8 list-none"
+      >
+        <li>We’ve seen brilliant founders lose steam.</li>
+        <li>We’ve watched promising startups vanish.</li>
+        <li>
+          Not from a lack of passion, but from a lack of clarity, structure, and
+          execution.
+        </li>
+        <li>We know — because we’ve been the ones called in to fix it.</li>
+      </motion.ul>
+      {/* <motion.p
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.3, duration: 0.6 }}
+        className="text-gray-700 text-lg  mb-8"
+      >
+        We’ve seen brilliant founders lose steam.
+      </motion.p>
+      <motion.p
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.3, duration: 0.6 }}
+        className="text-gray-700 text-lg  mb-8"
+      >
+        We’ve watched promising startups vanish.
+      </motion.p>
+      <motion.p
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.3, duration: 0.6 }}
+        className="text-gray-700 text-lg  mb-8"
+      >
+        Not from a lack of passion, but from a lack of clarity, structure, and
+        execution.
+      </motion.p>
+      <motion.p
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.3, duration: 0.6 }}
+        className="text-gray-700 text-lg mb-8"
+      >
+        We know — because we’ve been the ones called in to fix it.
+      </motion.p> */}
 
       <motion.h1
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="text-4xl font-bold text-center text-gray-800 mb-4"
+        className="text-3xl font-semibold text-gray-800 mb-4"
       >
-        Business Consultancy – 10x Your Growth
+        Then We Stopped Watching… And Started Building with Them.
       </motion.h1>
-
       <motion.p
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.3, duration: 0.6 }}
-        className="text-gray-700 text-lg text-center mb-8"
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className=" text-gray-800 mb-4"
       >
-        Unlock your business’s full potential. At Eljards Ltd, we help startups
-        and established brands achieve product-market fit, maximize
-        profitability, and scale fast. Using <strong>mind engineering</strong>{" "}
-        and proven growth frameworks, we go beyond strategy—we execute.
+        At Eljards Ltd, we don’t hand you slides full of theory. We enter the
+        trenches with you. We refine your product, reframe your strategy, and
+        reroute your growth path — all grounded in mind engineering and tested
+        execution frameworks that have worked across industries. We don’t just
+        talk strategy. We move businesses forward.
       </motion.p>
+      <motion.h1
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="text-3xl font-semibold text-gray-800 mb-4"
+      >
+        Because We Know What’s at Stake.
+        <p className="text-xl">
+          Your dream isn’t just a business — it’s your legacy.
+        </p>
+      </motion.h1>
       <motion.ul
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.6 }}
-        className="list-disc pl-5 text-gray-700 mb-8"
+        className="list-none pl-5 text-gray-700 mb-8"
       >
-        We ensure
-        <li>Product penetration for startups entering competitive markets</li>
-        <li>Product relevance in dynamic customer environments</li>
-        <li>Product dominance for established brands aiming for leadership</li>
+        <li>It deserves direction.</li>
+        <li>It deserves momentum.</li>
+        <li>
+          It deserves a team that’s just as invested in your outcome as you are.
+        </li>
       </motion.ul>
 
-      {/* CTA Button */}
-      <motion.div
+      <motion.h1
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="text-3xl font-semibold text-gray-800 mb-4"
+      >
+        Here’s What We Deliver — Hands-On:
+      </motion.h1>
+      <motion.ul
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 0.9, duration: 0.6 }}
-        className="text-center"
+        transition={{ delay: 0.5, duration: 0.6 }}
+        className="list-none pl-5 text-gray-700 mb-8"
       >
-        <Link href="/get-started">
-          <button className="bg-blue-800 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition mb-8">
-            10x Your Business
-          </button>
-        </Link>
-      </motion.div>
-
+        <li>
+          {" "}
+          Product penetration for startups entering tough, competitive markets
+        </li>
+        <li>
+          {" "}
+          Product relevance for businesses navigating shifting customer needs
+        </li>
+        <li>
+          {" "}
+          Product dominance for brands ready to lead and expand their influence
+        </li>
+      </motion.ul>
       <motion.h2
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.9, duration: 0.6 }}
         className="text-2xl font-semibold text-gray-800 mb-4"
+      >
+        Let’s Turn Your Vision Into Results.
+      </motion.h2>
+      <motion.p
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.9, duration: 0.6 }}
+        className="text-gray-700"
+      >
+        No fluff. No vague advice. Just battle-tested growth systems built to
+        take your business 10x farther — and faster.
+      </motion.p>
+      {/* CTA Button */}
+      <motion.p
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.9, duration: 0.6 }}
+        className="text-gray-700"
+      >
+        Ready to scale?  <Link href="/contact" className="text-blue-600"> Let’s make it happen, together. </Link>
+       
+          
+        
+      </motion.p>
+
+      <motion.h2
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.9, duration: 0.6 }}
+        className="text-2xl font-semibold text-gray-800 pt-5 mb-4"
       >
         Frequently Asked Questions
       </motion.h2>

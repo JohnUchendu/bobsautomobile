@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     type: "website",
   },
   title:
-    "Eljards Ltd Services | Solar Energy, Used Cars & Business Consulting in Nigeria",
+    "Eljards Ltd Services | Solar Energy, Car Deals & Business Consulting in Nigeria",
   description:
     "Empowering Nigerians with clean energy, reliable car transactions, and strategic business growth. Discover how Eljards Ltd transforms lives and industries.",
   generator: "",

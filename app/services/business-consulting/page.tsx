@@ -1,4 +1,5 @@
 import ConsultingService from "@/components/ConsultingService";
+import BusinessConsultingHero from "@/components/ServiceComponents/BusinessConsultingHero";
 
 export const metadata = {
   alternates: {
@@ -38,5 +39,10 @@ export const metadata = {
 };
 
 export default function ConsultingPage() {
-  return <ConsultingService />;
+  return (
+    <>
+      <BusinessConsultingHero />
+      <ConsultingService />;
+    </>
+  );
 }

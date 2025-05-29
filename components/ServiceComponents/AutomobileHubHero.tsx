@@ -11,17 +11,30 @@ import {
 import { Button } from "@/components/ui/button";
 
 const slides = [
-  
   {
-    image: "/automobile/testdrive.jpg",
-    title: "Power cuts are killing your productivity. And your budget.",
-    description: "You deserve energy you can trust — not overpriced diesel, blackouts, or noisy generators. We install reliable solar systems that save you money, reduce stress, and keep your business (or home) running 24/7.",
-    buttonText: " Book a free energy assessment today.",
-    link: "/contact",
+    image: "/automobile/showroom.jpg",
+    title: "Buying or selling a car shouldn’t feel like a gamble.",
+    description: "We’ve seen too many people lose time, money, and trust—so we teamed up with Cars45 and Jiji to make vehicle buying, selling, and swapping in Nigeria simple, safe, and hassle-free.",
+    buttonText: "Find Your Next Ride Today",
+    link: "/about",
   },
+//   {
+//     image: "/automobile/carmaintenance.jpg",
+//     title: "Trusted Auto Repair Services",
+//     description: "Certified technicians ready to keep your vehicle running like new.",
+//     buttonText: "Book a Service",
+//     link: "/services",
+//   },
+//   {
+//     image: "/automobile/testdrive.jpg",
+//     title: "Schedule a Test Drive",
+//     description: "Experience comfort, power, and performance before you make the choice.",
+//     buttonText: "Test Drive Now",
+//     link: "/book-test-drive",
+//   },
 ];
 
-export default function SolarHero() {
+export default function AutomobileHubHero() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -58,7 +71,7 @@ export default function SolarHero() {
                     <h2 className="text-4xl font-bold mb-4">{slide.title}</h2>
                     <p className="text-lg mb-6">{slide.description}</p>
                     <Link href={slide.link} passHref>
-                      <Button className="bg-blue-700 text-gray-300 hover:bg-blue-200">
+                      <Button className="bg-blue-700 text-gray-300 hover:bg-blue-600">
                         {slide.buttonText}
                       </Button>
                     </Link>
